@@ -1,0 +1,38 @@
+.article-content {
+    width: 750px;
+    padding-left:30px;
+    margin-left: 0;
+    margin-right: auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.article-content p {
+
+    word-wrap: break-word;
+    letter-spacing: 2px;
+    line-height: 1.4em;
+}
+
+.article-content h1{
+    letter-spacing: 3px;
+    line-height: 1.4em;
+}
+
+.article-info{
+    color: #b3b3b3;
+    text-align: right;
+    display: inline-block;
+    margin-left: 130px;
+    vertical-align: top;
+}
+
+.article-fb{
+    text-align: left;
+    display: inline-block;
+}
+
+.fb-comments{
+    margin-top: 20px;
+    padding: 0;
+}

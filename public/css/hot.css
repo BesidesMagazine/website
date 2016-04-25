@@ -1,0 +1,60 @@
+.hot-bar {
+    display: inline-block;
+    width: 224px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.hot-bar h1{
+    margin: 0;
+    display: inline-block;
+    letter-spacing: 2px;
+    line-height: 1.4em;
+    padding: 6px;
+    color: #B11533;
+    padding-bottom: 4px;
+    border-radius: 1px;
+    margin-bottom: 15px;
+}
+
+
+.hot-bar-news-container {
+    width:282px;
+    height: 96px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.hot-bar table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(256, 256, 256, 0.8);
+}
+.hot-bar td {
+    border: 1px solid #B11533;
+    font-family:'ming-font',serif;
+    font-size: 16px;
+    height: 96px;
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+    word-break: break-all;
+    cursor: pointer;
+}
+.hot-bar a {
+    text-decoration: none;
+    color:black;
+    line-height: 150%;
+}
+.hot-bar td:hover a{
+    color: #B11533;
+    border-bottom: 2px solid #000;
+    padding-bottom: 4px;
+}

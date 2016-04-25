@@ -1,0 +1,60 @@
+.card-author {
+  width: 260px;
+  height: 260px;
+  margin: 20px;
+  display: inline-block;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.front{
+    overflow: hidden;
+    text-align: center;
+}
+
+.front div{
+    height:260px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.front span{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-size: 26px;
+    letter-spacing: 4px;
+    text-shadow: 4px 2px 4px #910000;
+}
+
+.back{
+    background-color: white;
+    text-align: left;
+}
+
+.author-intro{
+    max-height: 220px;
+    overflow: hidden;
+}
+
+.author-link{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: black;
+}
+
+.author-link:hover{
+    color: #b11533;
+}
+
+.back p{
+    margin: 13px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #b11533;
+}

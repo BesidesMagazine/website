@@ -1,0 +1,190 @@
+.main-content{
+    max-width: 1106px;
+}
+
+.forum-banner-img{
+    width: 100%;
+    float: left;
+}
+
+.forum-banner-right{
+    width: 100%;
+    float: right;
+    height: 200px;
+    display: block;
+    text-align: center;
+    background-color: white;
+    color: #EF4136;
+}
+
+.forum-banner-engtext {
+    font-family: 'dinpro-b',sans-serif;
+    font-size:80px;
+    letter-spacing: 4px;
+}
+
+.forum-banner-chtext {
+    font-family: 'notosansbold-font',sans-serif;
+    font-size:25px;
+    letter-spacing: 10px;
+}
+
+.forum-origin {
+    padding: 10px;
+    width: 100%;
+    background-color: #1C75BC;
+}
+
+.forum-h {
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'notosansbold-font',sans-serif;
+    letter-spacing: 10px;
+    color: #F9ED32;
+}
+
+.forum-h-orange {
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'notosansbold-font',sans-serif;
+    letter-spacing: 10px;
+    color: #EF4136;
+}
+
+.forum-p {
+    letter-spacing: 1px;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 1em;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: 'notosanslight-font',sans-serif;
+    color: white;
+}
+
+.forum-agenda {
+    padding: 10px;
+    background-color: white;
+    overflow-x: auto;
+    width:100%;
+    margin: 0 auto;
+}
+
+.forum-agenda-table{
+    text-align: center;
+    margin-top: 80px;
+    min-width: 800px;
+    font-family: 'notosansbold-font',sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+     margin: 0 auto;
+    vertical-align: middle;
+}
+
+.forum-agenda-tr{
+    height: 50px;
+}
+
+.forum-agenda-th {
+    border: 1px solid white;
+    color: #F9ED32;
+    background-color: #1C75BC;
+}
+
+.forum-agenda-td {
+    color: #1C75BC;
+    border: 1px solid #1C75BC;
+    padding: 10px;
+}
+
+.forum-agenda-category{
+    float: left;
+    font-size: 1.2em;
+    text-indent: 0.5em;
+    color: #F9ED32;
+    background-color: #1C75BC;
+}
+
+.forum-agenda-category-intro {
+    opacity: 0.4;
+    font-size: 0.8em;
+}
+
+.forum-agenda-speaker-name {
+    color: #EF4136;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.forum-agenda-speaker-intro {
+    opacity: 0.4;
+    font-size: 0.8em;
+}
+
+
+.forum-speaker-intro {
+    background-color: #1C75BC;
+
+    overflow-x: auto;
+}
+
+.forum-speaker-intro-table {
+    font-family: 'notosansbold-font',sans-serif;
+    width:80%;
+    margin : 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-x: auto;
+    min-width: 600px;
+}
+
+.forum-speaker-intro-pic-td {
+    width:250px;
+    vertical-align:text-top;
+}
+
+.forum-speaker-intro-pic {
+}
+
+.forum-speaker-intro-name {
+    background-color: white;
+    letter-spacing: 3px;
+    font-size: 2em;
+    color: #EF4136;
+}
+
+.forum-speaker-intro-job {
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    color: #F9ED32;
+    line-height: 2em;
+}
+
+.forum-speaker-intro-text {
+    font-family: 'notosanslight-font',sans-serif;
+    letter-spacing: 1px;
+    font-size: 1em;
+    color: white;
+    line-height: 2em;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.forum-signup{
+    background-color: white;
+}
+
+.forum-a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    font-family: 'notosansbold-font',sans-serif;
+}
+
+.forum-a:hover{
+    color: #EF4136;
+}

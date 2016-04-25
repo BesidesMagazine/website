@@ -1,0 +1,39 @@
+.all-cards-wall {
+    max-width: 1106px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+
+
+}
+.all-cards-partial-wall{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.category-wall-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 6px;
+    border-radius: 1px;
+    color: black;
+}
+
+.all-cards-wall h1 {
+    margin: 0;
+    border-bottom: 4px solid transparent;
+    letter-spacing: 4px;
+    line-height: 1.3em;
+}
+
+.all-cards-wall h1:hover {
+    color: #B11533;
+    border-bottom: 4px solid #000;
+}
+
+.all-cards-wall h1:active {
+    color: red;
+}
