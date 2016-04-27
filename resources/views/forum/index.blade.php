@@ -12,6 +12,13 @@
 </style>
 <div class="forum-banner-container">
 	<div class="content">
+		<div class="forum-navbar">
+			<a class="forum-navbar-a" href="#forum-origin">論壇緣起</a>
+			<a class="forum-navbar-a" href="#forum-agenda">論壇議程</a>
+			<a class="forum-navbar-a" href="#forum-speakers">講者簡介</a>
+			<a class="forum-navbar-a" href="#forum-link">活動報名連結</a>
+		</div>
+
 		<img src="img/forum_banner.png" class="forum-banner-img"/>
 			<div class="forum-banner-right">
 				<br /><br />
@@ -24,7 +31,7 @@
 				<h1 class="forum-h">
 					論壇緣起
 				</h1>
-				<p class="forum-p">
+				<p class="forum-p"  id="forum-origin">
 					《除了》2016 異想論壇，緣起於《除了》雜誌創辦至今之核心理念之推廣，即建立一多元發聲之議題平台，讓各項領域之議題皆能有機會獲得重視，並結合新世代重視之創新創造的發想能力，展現不同的視野；此外，本次論壇亦與《除了》第二期之主題「做，白日夢」密切連結，傳達「透過努力實踐，天馬行空的夢也有實現的機會」之理念；我們希望透過此次論壇，結合文化藝術、影視、媒體與傳播、創新創業、社會參與等領域之傑出前輩的分享，將此「異想」之理念充分傳遞與參與者。
 				</p>
 				<h1 class="forum-h">
@@ -43,7 +50,7 @@
 				</ul>
 			</div>
 
-			<div class="forum-agenda">
+			<div class="forum-agenda" id="forum-agenda">
 				<h1 class="forum-h-orange">
 					議程
 				</h1>
@@ -180,18 +187,18 @@
 				</table>
 			</div>
 
-			<div class="forum-speaker-intro">
+			<div class="forum-speaker-intro" id ="forum-speakers">
 				<h1 class="forum-h">
 					講者簡介
 				</h1>
 
 				<table class="forum-speaker-intro-table">
 					<tr class="forum-speaker-intro-tr">
+						<a class="forum-speaker-a">
 						<td class="forum-speaker-intro-pic-td">
 							<div class="forum-speaker-intro-card">
 								<img src="img/forum/speaker_1.png" class="forum-speaker-intro-pic"/>
-						</td>
-						<td class="forum-speaker-intro-td">
+								<br />
 								<span class="forum-speaker-intro-name">
 									余宛容 女士
 								</span>
@@ -199,7 +206,6 @@
 								<span class="forum-speaker-intro-job">
 									生態綠創辦人
 								</span>
-								<br />
 								<span class="forum-speaker-intro-text">
 									<ul>
 									<li>生態綠是華文地區第一家公平貿易特許商；榮獲經濟部「中小企業處」第八屆新創事業獎銀質獎。<br /></li>
@@ -211,14 +217,11 @@
 								</span>
 							</div>
 						</td>
-					</tr>
-
-					<tr class="forum-speaker-intro-tr">
+						</a>
 						<td class="forum-speaker-intro-pic-td">
 							<div class="forum-speaker-intro-card">
 								<img src="img/forum/speaker_2.png" class="forum-speaker-intro-pic"/>
-						</td>
-						<td class="forum-speaker-intro-td">
+								<br />
 								<span class="forum-speaker-intro-name">
 									林大涵 先生
 								</span>
@@ -256,8 +259,7 @@
 						<td class="forum-speaker-intro-pic-td">
 							<div class="forum-speaker-intro-card">
 								<img src="img/forum/speaker_3.png" class="forum-speaker-intro-pic"/>
-						</td>
-						<td class="forum-speaker-intro-td">
+								<br />
 								<span class="forum-speaker-intro-name">
 									包益民 先生
 								</span>
@@ -278,14 +280,10 @@
 								</span>
 							</div>
 						</td>
-					</tr>
-
-					<tr class="forum-speaker-intro-tr">
 						<td class="forum-speaker-intro-pic-td">
 							<div class="forum-speaker-intro-card">
 								<img src="img/forum/speaker_4.png" class="forum-speaker-intro-pic"/>
-						</td>
-						<td class="forum-speaker-intro-td">
+								<br />
 								<span class="forum-speaker-intro-name">
 									王小棣 女士
 								</span>
@@ -315,8 +313,7 @@
 						<td class="forum-speaker-intro-pic-td">
 							<div class="forum-speaker-intro-card">
 								<img src="img/forum/speaker_5.png" class="forum-speaker-intro-pic"/>
-						</td>
-						<td class="forum-speaker-intro-td">
+								<br />
 								<span class="forum-speaker-intro-name">
 									蔡昇達 先生
 								</span>
@@ -341,7 +338,7 @@
 				</table>
 			</div>
 
-			<div class="forum-signup">
+			<div class="forum-signup" id="forum-link">
 				<h1 class="forum-h-orange">
 					相關連結
 				</h1>

@@ -13,6 +13,5 @@
 		</div>
 		@include('layouts._footer')
 		@include('layouts._scripts')
-		@include('partials._forumad')
 	</body>
 </html>
