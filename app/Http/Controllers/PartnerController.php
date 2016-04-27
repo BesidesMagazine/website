@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\partner;
+use App\Partner;
 use App\Category;
 use App\Http\Requests;
 use Validator;
