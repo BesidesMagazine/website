@@ -4,8 +4,8 @@
  */
 
 CKEDITOR.editorConfig = function( config ) {
+	config.extraPlugins = 'imgur';
+	config.imgurClientId = 'd9c817c28d8f5db';
 	config.height = 1000;
 	config.width = 750;
-	config.extraPlugins = 'imgur';
-	config.imgurClientID = 'd9c817c28d8f5db';
 };
