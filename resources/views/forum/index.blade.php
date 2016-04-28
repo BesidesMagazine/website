@@ -16,7 +16,8 @@
 			<a class="forum-navbar-a" href="#forum-origin">論壇緣起</a>
 			<a class="forum-navbar-a" href="#forum-agenda">論壇議程</a>
 			<a class="forum-navbar-a" href="#forum-speakers">講者簡介</a>
-			<a class="forum-navbar-a" href="#forum-link">活動報名連結</a>
+			<a class="forum-navbar-a" href="#forum-location">交通方式</a>
+			<a class="forum-navbar-a" href="#forum-link">立即報名</a>
 		</div>
 
 		<img src="img/forum_banner.png" class="forum-banner-img"/>
@@ -40,14 +41,6 @@
 				<p class="forum-p">
 					何謂異想？即是時代中的逆行者，而此指之逆行並非僅是劃分時代新舊、美醜和強弱，更是要突破傳統思維框架，在時代中創造屬於自己獨特的標誌， 本次論壇橫跨五大主軸，每位將邀請之講者，皆是在該領域具高度「創造力」 的夢想家與實踐者，從各自的視野，與參與者分享新世代的多元觀點。
 				</p>
-				<h1 class="forum-h">
-					論壇概述
-				</h1>
-				<ul class="forum-p">
-					<li>預估與會人數：500人</li>
-					<li>主辦單位：《除了》雜誌</li>
-					<li>聽眾對象：大專院校創新育成中心、各級企業經理人、各大專院校師生、傳播領域學者、青年創業者、文化藝術工作者、社會企業、科技業者、各家媒體先進</li>
-				</ul>
 			</div>
 
 			<div class="forum-agenda" id="forum-agenda">
@@ -76,9 +69,6 @@
 						<td class="forum-agenda-td">09:20~10:20</td>
 						<td class="forum-agenda-td">
 							<span class="forum-agenda-category">影視——另類表達</span><br /><br />
-							<span class="forum-agenda-category-intro">電影美學與社會之間的對話，<br />理念與鏡頭的距離</span><br />
-							<span class="forum-agenda-speaker-name">引言人:林文淇先生</span><br /> 
-							<span class="forum-agenda-speaker-intro">國家電影中心執行長</span>
 						</td>
 						<td class="forum-agenda-td">
 							<span>09:20~09:50</span>
@@ -98,7 +88,6 @@
 						<td class="forum-agenda-td">10:20~11:50</td>
 						<td class="forum-agenda-td">
 							<span class="forum-agenda-category">文化藝術——生命故事</span><br /><br />
-							<span class="forum-agenda-category-intro">不同領域的文化藝術推動者，<br />向與會者分享各自的生命故事</span><br />
 						</td>
 						<td class="forum-agenda-td">
 							對談
@@ -120,8 +109,7 @@
 					<tr class="forum-agenda-tr">
 						<td class="forum-agenda-td">13:20~14:20</td>
 						<td class="forum-agenda-td">
-							<span class="forum-agenda-category">媒體與傳播——引領潮流</span><br /><br />
-							<span class="forum-agenda-category-intro">網路世代中傳播媒體扮演的<br />角色與趨勢之分析</span>
+							<span class="forum-agenda-category">媒體與傳播——引領潮流</span>
 						</td>
 						<td class="forum-agenda-td">
 							<span>13:20~13:50</span>
@@ -140,12 +128,7 @@
 					<tr class="forum-agenda-tr">
 						<td class="forum-agenda-td">14:20~15:50</td>
 						<td class="forum-agenda-td">
-							<span class="forum-agenda-category">創新創業——實現異想</span><br /><br />
-							<span class="forum-agenda-category-intro">透過擁有各自與眾不同思維的創業家<br />
-								之間的對話，帶給與會者全新啟發。</span><br />
-							<span class="forum-agenda-speaker-name">主持人：徐仁全先生</span>
-							<br />
-							<span class="forum-agenda-speaker-intro">30 雜誌副總編輯</span>
+							<span class="forum-agenda-category">創新創業——實現異想</span>
 						</td>
 						<td class="forum-agenda-td">
 							對談
@@ -171,7 +154,6 @@
 						<td class="forum-agenda-td">16:00~17:00</td>
 						<td class="forum-agenda-td">
 							<span class="forum-agenda-category">社會參與——真實對話</span><br /><br />
-							<span class="forum-agenda-category-intro">用行動去關注台灣社會的實業家，<br />揭示台灣社會當前面臨的重要議題。</span>
 						</td>
 						<td class="forum-agenda-td">
 						</td>
@@ -288,15 +270,33 @@
 
 			<div class="forum-signup" id="forum-link">
 				<h1 class="forum-h-orange">
-					相關連結
+					立即報名
 				</h1>
 				<p class="forum-p">
-					<a class="forum-a" href="https://www.facebook.com/events/573521609481193/">Facebook活動專頁</a>
-				</p>
-				<p class="forum-p">
-					<a class="forum-a" href="">報名連結</a>
+					
+					<a class="forum-a" href="">立即購票！</a>
 				</p>
 				
+			</div>
+
+			<div class="forum-origin" id="forum-location">
+				<h1 class="forum-h">
+					交通方式
+				</h1>
+				<div class="forum-p">
+
+				<h1 class="forum-p-h">地址</h1>
+				<p>桃園市中壢區中大路300號 國立中央大學 大講堂</p>
+
+				<h1 class="forum-p-h">國道1號（中山高速公路）</h1>
+					<p>中壢交流道（62公里）出口，往新屋方向行駛，沿民族路至三民路右轉，中正路左轉，中大路左轉即可抵達本校前門。車程約5~10分鐘。</p>
+				<h1 class="forum-p-h">國道3號（福爾摩沙高速公路）</h1>
+					<p>大溪交流道（62公里）出口，往中壢方向行駛，轉台66線快速公路（往中壢、觀音方向），接國道1號（北上），於62公里中壢交流道出口，往新屋方向行駛，沿民族路至三民路右轉，中正路左轉，中大路左轉即可抵達本校前門。車程約20分鐘。</p>
+				<h1 class="forum-p-h">GPS衛星導航</h1>
+					<p>北緯24.96828；東經121.195474</p>
+
+				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.901056278836!2d121.19032761444473!3d24.96948078400261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823c1ec904dcb%3A0xcdc129d4455ce456!2z5ZyL56uL5Lit5aSu5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1461862298062" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 	</div>
 </div>

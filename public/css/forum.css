@@ -88,6 +88,13 @@
     color: white;
 }
 
+.forum-p-h {
+    font-size: 1.2em;
+    text-indent: 0;
+    color: #EF4136;
+    background-color: white;
+}
+
 .forum-agenda {
     padding: 10px;
     background-color: white;
@@ -125,11 +132,9 @@
 }
 
 .forum-agenda-category{
-    float: left;
     font-size: 1.2em;
     text-indent: 0.5em;
-    color: #F9ED32;
-    background-color: #1C75BC;
+    color: EF4136;
 }
 
 .forum-agenda-category-intro {
