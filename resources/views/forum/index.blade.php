@@ -1,8 +1,6 @@
 @extends('layouts.master')
 
-@section('style')
-	<link rel="stylesheet" type="text/css" href="css/forum.css">
-@endsection
+<link rel="stylesheet" type="text/css" href="css/forum.css">
 
 @section('content')
 <style type="text/css">
@@ -10,6 +8,8 @@
 		display: none;
 	}
 </style>
+
+
 <div class="forum-banner-container">
 	<div class="content">
 		<div class="forum-navbar">
@@ -77,7 +77,7 @@
 						<td class="forum-agenda-td">
 							<span class="forum-agenda-category">影視——另類表達</span><br /><br />
 							<span class="forum-agenda-category-intro">電影美學與社會之間的對話，<br />理念與鏡頭的距離</span><br />
-							<span class="forum-agenda-speaker-name">引言人:林文淇先生</span><br />
+							<span class="forum-agenda-speaker-name">引言人:林文淇先生</span><br /> 
 							<span class="forum-agenda-speaker-intro">國家電影中心執行長</span>
 						</td>
 						<td class="forum-agenda-td">
@@ -191,13 +191,14 @@
 				<h1 class="forum-h">
 					講者簡介
 				</h1>
-
+				
 				<table class="forum-speaker-intro-table">
 					<tr class="forum-speaker-intro-tr">
-						<a class="forum-speaker-a">
 						<td class="forum-speaker-intro-pic-td">
 							<div class="forum-speaker-intro-card">
-								<img src="img/forum/speaker_1.png" class="forum-speaker-intro-pic"/>
+
+								<a class="forum-speaker-a" href="#lightbox1">
+								<img src="img/forum/speaker_1.png" class="forum-speaker-intro-pic"/></a>
 								<br />
 								<span class="forum-speaker-intro-name">
 									余宛容 女士
@@ -206,21 +207,16 @@
 								<span class="forum-speaker-intro-job">
 									生態綠創辦人
 								</span>
-								<span class="forum-speaker-intro-text">
-									<ul>
-									<li>生態綠是華文地區第一家公平貿易特許商；榮獲經濟部「中小企業處」第八屆新創事業獎銀質獎。<br /></li>
-
-									<li>曾任社會企業發展協會常務理事、國會助理、綠色電商聯盟副理事長。旗下的生態綠積極倡議「食物正義」與「倫理消費」，於2014 榮獲創投之星「最佳潛力獎」<br /></li>
-
-									<li>自2016年當選成為不分區立委，問政重點展現於青年創業、社會企業、食安問題、性別平等面向<br /></li>
-									</ul>
-								</span>
 							</div>
+							
 						</td>
-						</a>
+
 						<td class="forum-speaker-intro-pic-td">
+							
 							<div class="forum-speaker-intro-card">
+								<a href="#lightbox2">
 								<img src="img/forum/speaker_2.png" class="forum-speaker-intro-pic"/>
+								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
 									林大涵 先生
@@ -230,35 +226,14 @@
 									貝殼放大創辦人
 								</span>
 								<br />
-								<span class="forum-speaker-intro-text">
-									<ul>
-									<li><富比世雜誌> 2016亞洲30歲以下30大青年創業家</li>
-
-									<li>關鍵評論網「台灣未來大人物」</li>
-
-									<li>經理人雜誌「百大MVP經理人」</li>
-
-									<li>貝殼放大
-										<ul>
-										<li>台灣第一間群眾集資顧問公司、亞洲最大群眾集資顧問公司</li>
-										<li>2015年3.5億總募資金額，集資成功率達90%</li>
-										<li>精彩案例</li>
-											<ol>
-												金萱字型集資，月亮杯募資計畫，灣生回家，鮮乳坊小農直送，Womany女人迷
-											</ol>
-										</ul>
-									</li>
-									</ul>
-								</span>
+								
 							</div>
 						</td>
-					</tr>
-
-
-					<tr class="forum-speaker-intro-tr">
 						<td class="forum-speaker-intro-pic-td">
 							<div class="forum-speaker-intro-card">
-								<img src="img/forum/speaker_3.png" class="forum-speaker-intro-pic"/>
+								<a href="#lightbox3">
+									<img src="img/forum/speaker_3.png" class="forum-speaker-intro-pic"/>
+								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
 									包益民 先生
@@ -267,22 +242,19 @@
 								<span class="forum-speaker-intro-job">
 									包氏集團、PPAPER雜誌創辦人
 								</span>
-								<br />
-								<span class="forum-speaker-intro-text">
-									<ul>
-									<li>世界知名創意設計師、華人創意教父。《Archive》雜誌評選爲全球排名第7 與獲獎最多的創意總監。</li>
-
-									<li>曾任台灣李奧貝納以及智威湯遜副創意總監，其作品獲得超過80個以上的世界大獎肯定。</li>
-
-									<li>1995年成立包氏集團，2004年成功創辦了每雙周銷售量達100,000本的設計生活雜誌《PPAPER》，且成爲亞洲區設計類雜誌的龍頭，包氏集團目前已成爲國內最知名的設計公司之一。</li>
-
-									</ul>
-								</span>
+								
 							</div>
 						</td>
+
+					</tr>
+
+
+					<tr class="forum-speaker-intro-tr">
 						<td class="forum-speaker-intro-pic-td">
 							<div class="forum-speaker-intro-card">
+								<a href="#lightbox4">
 								<img src="img/forum/speaker_4.png" class="forum-speaker-intro-pic"/>
+								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
 									王小棣 女士
@@ -291,28 +263,14 @@
 								<span class="forum-speaker-intro-job">
 									金鐘獎、國家文藝獎得主
 								</span>
-								<br />
-								<span class="forum-speaker-intro-text">
-									<ul>
-									<li>臺灣知名電影、電視劇的編劇和導演，國家文藝獎得主，被評選為臺灣重要的影視戲劇藝術家。</li>
-
-									<li>1992年創立稻田電影工作室，已出版過無數作品，如《熱帶魚》、《波麗士大人》等，自1998年起，也陸續為公共電視台拍攝劇展電視長片，出版作品展現其題材之多樣性。</li>
-									<li>得獎紀錄</li>
-									<ul>
-										<li>2005年以《擁抱大白熊》獲華語電影傳媒大獎最佳原著劇本；</li>
-										<li>2007年，以《我在墾丁天氣晴》獲得第43屆金鐘獎最佳戲劇節目編劇獎。</li>
-										<li>2014年，以《刺蝟男孩》獲得第49屆金鐘獎最佳戲劇節目編劇獎。</li>
-									</ul>
-									</ul>
-								</span>
+								
 							</div>
 						</td>
-					</tr>
-
-					<tr class="forum-speaker-intro-tr">
 						<td class="forum-speaker-intro-pic-td">
 							<div class="forum-speaker-intro-card">
+								<a href="#lightbox5">
 								<img src="img/forum/speaker_5.png" class="forum-speaker-intro-pic"/>
+								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
 									蔡昇達 先生
@@ -321,17 +279,7 @@
 								<span class="forum-speaker-intro-job">
 									歐北來團隊共同創辦人
 								</span>
-								<br />
-								<span class="forum-speaker-intro-text">
-									<ul>
-									<li>2012年，成立台灣冷門景點熱血復甦計畫-歐北來，走訪台灣各地，蒐集台灣在地文化、故事、草根人物、地點等，深度報導台灣鄉鎮間未被注意的美好事物</li>
-
-									<li>2013年，「島嶼拼圖」計畫開始，以商業化的模式讓部落文化得以永續，讓旅人可以深入了解部落，並使部落獲得新生。</li>
-
-									<li>天下雜誌319鄉微笑台灣款款行專刊 特約撰稿、The News Lens 關鍵評論網 駐站作家、女人迷womany 駐站作家</li>
-
-									</ul>
-								</span>
+								
 							</div>
 						</td>
 					</tr>
@@ -348,8 +296,121 @@
 				<p class="forum-p">
 					<a class="forum-a" href="">報名連結</a>
 				</p>
-
+				
 			</div>
+	</div>
+</div>
+
+
+<div class="lightbox" id="lightbox1">
+	<div class="figure">
+		<a href="#forum_speakers" class="close">X</a>
+		<a href="#forum_speakers"><img src="img/forum/speaker_1.png" /></a>
+		<h1 class="forum-speaker-intro-name">余宛如 女士</h1>
+		<span class="forum-speaker-intro-job">生態綠創辦人</span>
+		<br />
+		<span class="forum-speaker-intro-text">
+			<ul>
+			<li>生態綠是華文地區第一家公平貿易特許商；榮獲經濟部「中小企業處」第八屆新創事業獎銀質獎。<br /></li>
+
+			<li>曾任社會企業發展協會常務理事、國會助理、綠色電商聯盟副理事長。旗下的生態綠積極倡議「食物正義」與「倫理消費」，於2014 榮獲創投之星「最佳潛力獎」<br /></li>
+
+			<li>自2016年當選成為不分區立委，問政重點展現於青年創業、社會企業、食安問題、性別平等面向<br /></li>
+			</ul>
+		</span>
+	</div>
+</div>
+
+<div id="lightbox2" class="lightbox">
+	<div class="figure">
+		<a href="#forum_speakers" class="close">X</a>
+		<a href="#forum_speakers"><img src="img/forum/speaker_2.png" /></a>
+		<h1 class="forum-speaker-intro-name">林大涵 先生</h1>
+		<span class="forum-speaker-intro-job">貝殼放大創辦人</span>
+		<br />
+		<span class="forum-speaker-intro-text">
+			<ul>
+			<li><富比世雜誌> 2016亞洲30歲以下30大青年創業家</li>
+
+			<li>關鍵評論網「台灣未來大人物」</li>
+
+			<li>經理人雜誌「百大MVP經理人」</li>
+
+			<li>貝殼放大
+				<ul>
+				<li>台灣第一間群眾集資顧問公司、亞洲最大群眾集資顧問公司</li>
+				<li>2015年3.5億總募資金額，集資成功率達90%</li>
+				<li>精彩案例</li>
+					<ol>
+						金萱字型集資，月亮杯募資計畫，灣生回家，鮮乳坊小農直送，Womany女人迷
+					</ol>
+				</ul>
+			</li>
+			</ul>
+		</span>
+	</div>
+</div>
+
+<div id="lightbox3" class="lightbox">
+	<div class="figure">
+		<a href="#forum_speakers" class="close">X</a>
+		<a href="#forum_speakers"><img src="img/forum/speaker_3.png" /></a>
+		<h1 class="forum-speaker-intro-name">包益民 先生</h1>
+		<span class="forum-speaker-intro-job">包氏集團、PPAPER雜誌創辦人 </span>
+		<br />
+		<span class="forum-speaker-intro-text">
+			<ul>
+			<li>世界知名創意設計師、華人創意教父。《Archive》雜誌評選爲全球排名第7 與獲獎最多的創意總監。</li>
+
+			<li>曾任台灣李奧貝納以及智威湯遜副創意總監，其作品獲得超過80個以上的世界大獎肯定。</li>
+
+			<li>1995年成立包氏集團，2004年成功創辦了每雙周銷售量達100,000本的設計生活雜誌《PPAPER》，且成爲亞洲區設計類雜誌的龍頭，包氏集團目前已成爲國內最知名的設計公司之一。</li>
+
+			</ul>
+		</span>
+	</div>
+</div>
+
+<div id="lightbox4" class="lightbox">
+	<div class="figure">
+		<a href="#forum_speakers" class="close">X</a>
+		<a href="#forum_speakers"><img src="img/forum/speaker_4.png" /></a>
+		<h1 class="forum-speaker-intro-name">王小棣 女士</h1>
+		<span class="forum-speaker-intro-job">金鐘獎、國家文藝獎得主 </span>
+		<br />
+		<span class="forum-speaker-intro-text">
+			<ul>
+			<li>臺灣知名電影、電視劇的編劇和導演，國家文藝獎得主，被評選為臺灣重要的影視戲劇藝術家。</li>
+
+			<li>1992年創立稻田電影工作室，已出版過無數作品，如《熱帶魚》、《波麗士大人》等，自1998年起，也陸續為公共電視台拍攝劇展電視長片，出版作品展現其題材之多樣性。</li>
+			<li>得獎紀錄</li>
+			<ul>
+				<li>2005年以《擁抱大白熊》獲華語電影傳媒大獎最佳原著劇本；</li>
+				<li>2007年，以《我在墾丁天氣晴》獲得第43屆金鐘獎最佳戲劇節目編劇獎。</li>
+				<li>2014年，以《刺蝟男孩》獲得第49屆金鐘獎最佳戲劇節目編劇獎。</li>
+			</ul>
+			</ul>
+		</span>
+	</div>
+</div>
+
+<div id="lightbox5" class="lightbox">
+	<div class="figure">
+		<a href="#forum_speakers" class="close">X</a>
+		<a href="#forum_speakers"><img src="img/forum/speaker_5.png" /></a>
+		<h1 class="forum-speaker-intro-name">蔡昇達 先生</h1>
+		<span class="forum-speaker-intro-job">歐北來團隊共同創辦人</span>
+		<br />
+		<span class="forum-speaker-intro-text">
+			<ul>
+			<li>2012年，成立台灣冷門景點熱血復甦計畫-歐北來，走訪台灣各地，蒐集台灣在地文化、故事、草根人物、地點等，深度報導台灣鄉鎮間未被注意的美好事物</li>
+
+			<li>2013年，「島嶼拼圖」計畫開始，以商業化的模式讓部落文化得以永續，讓旅人可以深入了解部落，並使部落獲得新生。</li>
+
+			<li>天下雜誌319鄉微笑台灣款款行專刊 特約撰稿、The News Lens 關鍵評論網 駐站作家、女人迷womany 駐站作家</li>
+
+			</ul>
+		</span>
 	</div>
 </div>
 @endsection

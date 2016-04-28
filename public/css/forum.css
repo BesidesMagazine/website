@@ -1,7 +1,3 @@
-.main-content{
-    max-width: 1106px;
-}
-
 .forum-navbar {
     width: 100%;
     margin: 0 auto;
@@ -23,7 +19,7 @@
     text-align: center;
     vertical-align: middle;
     width:150px;
-}
+} 
 
 .forum-navbar-a:hover {
     background-color: #EF4136;
@@ -184,7 +180,12 @@
 }
 
 .forum-speaker-intro-pic {
-    width: 150px;
+    -webkit-transition: height 0.5s;
+            transition: height 0.5s;
+    height: 200px;
+}
+.forum-speaker-intro-pic:hover {
+    height:250px;
 }
 
 .forum-speaker-intro-name {
@@ -195,22 +196,66 @@
 }
 
 .forum-speaker-intro-job {
-    letter-spacing: 5px;
-    font-size: 1.5em;
+    letter-spacing: 3px;
+    font-size: 1.2em;
     color: #F9ED32;
     line-height: 2em;
 }
 
 .forum-speaker-intro-text {
-
     font-family: 'notosanslight-font',sans-serif;
     letter-spacing: 1px;
     font-size: 1em;
     color: white;
     line-height: 2em;
-    display: inline-block;
     margin-left: 10px;
+    display: inline-block;
+    text-align: left;
 }
+
+.lightbox {
+    -webkit-transition: opacity 500ms ease-in;
+    -moz-transition: opacity 500ms ease-in;
+    transition: opacity 500ms ease-in;
+    position: fixed  ;
+    opacity: 0%;
+    left: 0  ;
+    top: 0  ;
+    z-index: 20  ;
+    background: rgba(00,00,00,.8)  ;
+    display: none  ;
+    font-family: 'notosansbold-font',sans-serif;
+
+}
+
+.lightbox:target {
+    opacity: 100%;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.close {
+    font-family: 'notosansbold-font',sans-serif;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    }
+
+.figure {  
+        height:550px;
+        display: inline-block;  ;
+        vertical-align: middle  ;
+        text-align: center  ; 
+        background-color:#1C75BC;
+        max-width:600px;
+        overflow-x: auto;
+    }
+
+
 
 .forum-signup{
     background-color: white;
