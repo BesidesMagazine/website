@@ -58,7 +58,8 @@ class CategoryController extends Controller
 
     public function listArticles($category){
 
-        if(Category::where('name', $category)->get());
+        if(!(Category::where('name', $category)->get()))
+            return redirect()->route('category.index');
 
         $today = Carbon::today();
         $articles = Article::where('category_name', $category)->orderBy('created_at', 'desc')->get();
