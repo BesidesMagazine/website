@@ -6,7 +6,7 @@
 		@include('layouts._style')
 		@include('layouts._scripts_top')
 	</head>
-	<body style="background-color: #F6F6F6;">
+	<body style="background-color: #F6F6F6; margin-top:0px; margin-left:0; margin-right:0;">
 		@include('layouts._header')
 		<div class="main-content">
 			@yield('content')
