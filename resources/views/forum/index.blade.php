@@ -293,10 +293,10 @@
 				<h1 class="forum-p-h">國道3號（福爾摩沙高速公路）</h1>
 					<p>大溪交流道（62公里）出口，往中壢方向行駛，轉台66線快速公路（往中壢、觀音方向），接國道1號（北上），於62公里中壢交流道出口，往新屋方向行駛，沿民族路至三民路右轉，中正路左轉，中大路左轉即可抵達本校前門。車程約20分鐘。</p>
 				<h1 class="forum-p-h">GPS衛星導航</h1>
-					<p>北緯24.96828；東經121.195474</p>
+					<p>北緯24.96828，東經121.195474</p>
 
 				</div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.901056278836!2d121.19032761444473!3d24.96948078400261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823c1ec904dcb%3A0xcdc129d4455ce456!2z5ZyL56uL5Lit5aSu5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1461862298062" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.901056278836!2d121.19032761444473!3d24.96948078400261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823c1ec904dcb%3A0xcdc129d4455ce456!2z5ZyL56uL5Lit5aSu5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1461862298062" width="80%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 	</div>
 </div>
