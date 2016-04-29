@@ -276,3 +276,34 @@
 .forum-a:hover{
     color: #EF4136;
 }
+
+.forum-partner-container{
+    margin:0 auto;
+    width:80%;
+}
+
+.forum-s-h-blue {
+    
+    font-family: 'notosansbold-font',sans-serif;
+    color:#1C75BC;
+    font-size: 1.2em;
+}
+
+.forum-s-h {
+    display: none;
+    text-align: left;
+    font-family: 'notosansbold-font',sans-serif;
+    color:#1C75BC;
+    font-size: 1.2em;
+}
+
+.forum-partner-pic {
+    height:auto;
+    width: 90%;
+}
+
+.forum-partner-block{
+    vertical-align: middle;
+    width:19%;
+    display: inline-block;
+}
