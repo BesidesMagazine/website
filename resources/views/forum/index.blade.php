@@ -16,8 +16,9 @@
 			<a class="forum-navbar-a" href="#forum-origin">論壇緣起</a>
 			<a class="forum-navbar-a" href="#forum-agenda">論壇議程</a>
 			<a class="forum-navbar-a" href="#forum-speakers">講者簡介</a>
-			<a class="forum-navbar-a" href="#forum-location">交通方式</a>
 			<a class="forum-navbar-a" href="#forum-link">立即報名</a>
+			<a class="forum-navbar-a" href="#forum-location">交通方式</a>
+			<a class="forum-navbar-a" href="#forum-partners">合作夥伴</a>
 		</div>
 
 		<img src="img/forum_banner.png" class="forum-banner-img"/>
@@ -286,19 +287,120 @@
 				<div class="forum-p">
 
 				<h1 class="forum-p-h">地址</h1>
-				<p>桃園市中壢區中大路300號 國立中央大學 大講堂</p>
+				<p>桃園市中壢區中大路300號 國立中央大學 校史館大講堂</p>
 
 				<h1 class="forum-p-h">國道1號（中山高速公路）</h1>
 					<p>中壢交流道（62公里）出口，往新屋方向行駛，沿民族路至三民路右轉，中正路左轉，中大路左轉即可抵達本校前門。車程約5~10分鐘。</p>
 				<h1 class="forum-p-h">國道3號（福爾摩沙高速公路）</h1>
 					<p>大溪交流道（62公里）出口，往中壢方向行駛，轉台66線快速公路（往中壢、觀音方向），接國道1號（北上），於62公里中壢交流道出口，往新屋方向行駛，沿民族路至三民路右轉，中正路左轉，中大路左轉即可抵達本校前門。車程約20分鐘。</p>
 				<h1 class="forum-p-h">GPS衛星導航</h1>
-					<p>北緯24.96828；東經121.195474</p>
+					<p>北緯24.96828，東經121.195474</p>
 
 				</div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.901056278836!2d121.19032761444473!3d24.96948078400261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823c1ec904dcb%3A0xcdc129d4455ce456!2z5ZyL56uL5Lit5aSu5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1461862298062" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.5457458239293!2d121.19373058338255!3d24.96757025247333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x18fbcfafda6062ec!2z5qCh5Y-y6aSo!5e0!3m2!1szh-TW!2stw!4v1461944488534" width="80%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
+
+
+		<div class="forum-agenda" id="forum-partners">
+			<div class="forum-partner-container">
+				<h1 class="forum-h-orange">合作夥伴</h1>
+				<h1 class="forum-s-h-blue">媒體夥伴</h1>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/epoch_times.jpg" />
+					<br />
+					<br />
+					<span class="forum-s-h">大紀元時報</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/dit.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">創夢市集</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/udn.jpg" />
+					<br />
+					<br />
+					<span class="forum-s-h">聯合新聞網</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/Benchlife.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">BenchLife</span>
+				</div>
+				
+				<br />
+				<br />
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/taaze.jpg" />
+					<br />
+					<br />
+					<span class="forum-s-h">TAAZE 讀冊</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/crowd_watch.jpg" />
+					<br />
+					<br />
+					<span class="forum-s-h">群眾觀點</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/inspire.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">inspire</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/womany.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">女人迷</span>
+				</div>
+
+				<br />
+				<br />
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/kanro.jpg" />
+					<br />
+					<br />
+					<span class="forum-s-h">甘樂誌</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/fong.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">風傳媒</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/vide.jpg" />
+					<br />
+					<br />
+					<span class="forum-s-h">甘樂誌</span>
+				</div>
+
+				<h1 class="forum-s-h-blue">贊助夥伴</h1>
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/uber.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">Uber</span>
+				</div>
+			</div>
+		</div>
 	</div>
+
+
 </div>
 
 
