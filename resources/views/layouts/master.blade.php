@@ -14,5 +14,6 @@
 		</div>
 		@include('layouts._footer')
 		@include('layouts._scripts')
+		@include('forum.forumad')
 	</body>
 </html>

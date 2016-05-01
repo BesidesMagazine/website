@@ -134,7 +134,7 @@
 .forum-ad {
     position: fixed;
     top: 100px;
-    left: 0;
+    right: 0;
     width: 90px;
     height: 200px;
     background-color: white;
@@ -169,6 +169,11 @@
     .side-bar-news-title {
         height: 50px;
     }
+    .hot-container {
+        margin-top: 13px;
+        width: 100%;
+    }
+
 }
 
 
@@ -215,6 +220,11 @@
     }
     .side-bar-news-title {
         height: 50px;
+    }
+
+    .hot-container {
+        margin-top: 13px;
+        width: 100%;
     }
 
 }
