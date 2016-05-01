@@ -365,6 +365,29 @@
 					<span class="forum-s-h">青年事務局</span>
 				</div>
 
+				<h1 class="forum-s-h-blue">贊助夥伴</h1>
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/uber.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">Uber</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/tutorabc.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">TutorABC</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/mrcomputer.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">電腦先生</span>
+				</div>
+
+
 				<h1 class="forum-s-h-blue">媒體夥伴</h1>
 
 				<div class="forum-partner-block">
@@ -469,27 +492,7 @@
 					<span class="forum-s-h">欣傳媒</span>
 				</div>
 
-				<h1 class="forum-s-h-blue">贊助夥伴</h1>
-				<div class="forum-partner-block">
-					<img class="forum-partner-pic" src="img/forum/partners/uber.png" />
-					<br />
-					<br />
-					<span class="forum-s-h">Uber</span>
-				</div>
-
-				<div class="forum-partner-block">
-					<img class="forum-partner-pic" src="img/forum/partners/tutorabc.png" />
-					<br />
-					<br />
-					<span class="forum-s-h">TutorABC</span>
-				</div>
-
-				<div class="forum-partner-block">
-					<img class="forum-partner-pic" src="img/forum/partners/mrcomputer.png" />
-					<br />
-					<br />
-					<span class="forum-s-h">電腦先生</span>
-				</div>
+				
 			</div>
 		</div>
 	</div>
