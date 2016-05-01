@@ -265,6 +265,58 @@
 								
 							</div>
 						</td>
+
+						<td class="forum-speaker-intro-pic-td">
+							<div class="forum-speaker-intro-card">
+								<a href="#lightbox6">
+								<img src="img/forum/speaker_6.png" class="forum-speaker-intro-pic"/>
+								</a>
+								<br />
+								<span class="forum-speaker-intro-name">
+									陳翰林 先生
+								</span>
+								<br />
+								<span class="forum-speaker-intro-job">
+									EZTBLE創辦人
+								</span>
+								
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="forum-speaker-intro-pic-td">
+							<div class="forum-speaker-intro-card">
+								<a href="#lightbox7">
+								<img src="img/forum/speaker_7.png" class="forum-speaker-intro-pic"/>
+								</a>
+								<br />
+								<span class="forum-speaker-intro-name">
+									歐陽靖 女士
+								</span>
+								<br />
+								<span class="forum-speaker-intro-job">
+									
+								</span>
+								
+							</div>
+
+							<td class="forum-speaker-intro-pic-td">
+							<div class="forum-speaker-intro-card">
+								<a href="#lightbox8">
+								<img src="img/forum/speaker_8.png" class="forum-speaker-intro-pic"/>
+								</a>
+								<br />
+								<span class="forum-speaker-intro-name">
+									Peter Su
+								</span>
+								<br />
+								<span class="forum-speaker-intro-job">
+									BRAND名牌誌駐站作家
+								</span>
+								
+							</div>
+						</td>
+						</td>
 					</tr>
 				</table>
 			</div>
@@ -304,6 +356,15 @@
 		<div class="forum-agenda" id="forum-partners">
 			<div class="forum-partner-container">
 				<h1 class="forum-h-orange">合作夥伴</h1>
+
+				<h1 class="forum-s-h-blue">指導單位</h1>
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/young_bureau.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">青年事務局</span>
+				</div>
+
 				<h1 class="forum-s-h-blue">媒體夥伴</h1>
 
 				<div class="forum-partner-block">
@@ -388,6 +449,25 @@
 					<br />
 					<span class="forum-s-h">甘樂誌</span>
 				</div>
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/lecturenight.jpg" />
+					<br />
+					<br />
+					<span class="forum-s-h">深夜講堂</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/unbiggie.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">小人物</span>
+				</div>
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/xinmedia.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">欣傳媒</span>
+				</div>
 
 				<h1 class="forum-s-h-blue">贊助夥伴</h1>
 				<div class="forum-partner-block">
@@ -395,6 +475,20 @@
 					<br />
 					<br />
 					<span class="forum-s-h">Uber</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/tutorabc.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">TutorABC</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/mrcomputer.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">電腦先生</span>
 				</div>
 			</div>
 		</div>
@@ -510,6 +604,73 @@
 			<li>2013年，「島嶼拼圖」計畫開始，以商業化的模式讓部落文化得以永續，讓旅人可以深入了解部落，並使部落獲得新生。</li>
 
 			<li>天下雜誌319鄉微笑台灣款款行專刊 特約撰稿、The News Lens 關鍵評論網 駐站作家、女人迷womany 駐站作家</li>
+
+			</ul>
+		</span>
+	</div>
+</div>
+
+<div id="lightbox6" class="lightbox">
+	<div class="figure">
+		<a href="#forum_speakers" class="close">X</a>
+		<a href="#forum_speakers"><img src="img/forum/speaker_6.png" /></a>
+		<h1 class="forum-speaker-intro-name">陳翰林 先生</h1>
+		<span class="forum-speaker-intro-job">EZTABLE創辦人</span>
+		<br />
+		<span class="forum-speaker-intro-text">
+			<ul>
+			<li>陳翰林是餐廳線上訂位服務EZTBLE創辦人，而EZTABLE是美國哈佛大學商學院破壞式創新理論大師克雷頓．克里斯汀生旗下的Rose Park Advisors創投投資在亞洲地區第一、也是唯一投資的公司。</li>
+			<li>關於EZTABLE</li>
+			<ul>
+				<li>	全亞洲超過9000家餐廳合作訂位，是亞洲最大線上餐廳訂位服務
+				<li>	台灣第一家線上餐廳訂位網
+				<li>	台灣會員數突破120萬
+				<li>	訂位人次突破1000萬
+				<li>	超過100種客製化訂位規則
+				<li>	一條龍整合過程，預定即預付制度
+
+			</ul>
+			</ul>
+		</span>
+	</div>
+</div>
+
+<div id="lightbox7" class="lightbox">
+	<div class="figure">
+		<a href="#forum_speakers" class="close">X</a>
+		<a href="#forum_speakers"><img src="img/forum/speaker_7.png" /></a>
+		<h1 class="forum-speaker-intro-name">歐陽靖 女士</h1>
+		<span class="forum-speaker-intro-job"></span>
+		<br />
+		<span class="forum-speaker-intro-text">
+			<ul>
+			<li>歐陽靖為台灣女作家、演員、模特兒、跑者，活耀於各大領域。近幾年，參與各大馬拉松賽事，將完成全程馬拉松當作自己變堅強的證明，而歐陽靖也用她的生命經歷鼓舞許多人，帶給大家正面能量。</li>
+			<li>除了前往世界各地參與路跑賽，也出版了《RUN! GIRLS RUN! - 歐陽靖寫給女生的跑步書》、《旅跑．日本》等著作。將其親身參與多場馬拉松賽事的經驗，集結成書。</li>
+			<li>2005年，歐陽靖在侯孝賢電影《最好的時光-青春夢》，入圍第42屆金馬獎最佳造型設計獎項。近期也陸續參與了電影《菜鳥》、《逆轉勝》等演出。</li>
+			</ul>
+		</span>
+	</div>
+</div>
+
+<div id="lightbox8" class="lightbox">
+	<div class="figure">
+		<a href="#forum_speakers" class="close">X</a>
+		<a href="#forum_speakers"><img src="img/forum/speaker_8.png" /></a>
+		<h1 class="forum-speaker-intro-name">Peter Su</h1>
+		<span class="forum-speaker-intro-job">BRAND名牌誌駐站作家</span>
+		<br />
+		<span class="forum-speaker-intro-text">
+			<ul>
+			<li>「夢想其實不是一段距離，而是一個你會堅持到底的決定。」他，是蘇世豪，Peter Su，76年次的他，是一位暢銷的作家，是一位踏遍各地的背包客，更是一位熱愛攝影與設計的藝術家。在大家眼中看似一切順遂的他，其實也有過坎坷的人生。</li>
+
+			<li>毅然決然放棄大學升學考試，進入廣告公司任職，對他而言，最重要的不是學歷，而是知道自己想要甚麼，做自己熱愛的事。而他的夢想就是，在自己的能力範圍內幫助別人，做一個有價值的人。</li>
+
+			<li>他利用擅長的文字和影像，將他認為有意義的事和大家分享，讓這件事情可以透過梯歡他的人傳遞出去。他曾經因此而拯救了一位罹癌媽媽，也曾經和便當店合作，發起代用便當的活動。</li>
+
+			<li>在他的人生旅途中，他學到了不要逃避。也許過程很辛苦，但他從來不放棄他的夢想，因為他說「有些路不走，你永遠不知道會有多美，所以還是繼續向前走吧！」夢想，有時候不是看到了才相信，而是相信了才看到！</li>
+
+			<li>2014 Peter出版了《夢想這條路踏上了，跪著也要走完》，2015 出版《愛：即使世界不斷讓你失望，也要繼續相信愛》，目前更是天下雜誌駐站作家．Brand名牌誌專欄作家，Cheers駐站作家。</li>
+
 
 			</ul>
 		</span>
