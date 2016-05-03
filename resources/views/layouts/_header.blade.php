@@ -4,7 +4,7 @@
         <div class = "category-bar">
             <div class="category-item">
             <a href = "{{route("forum")}}">2016異想論壇</a>
-            </div>
+            </div>s
             @foreach ($categories as $category)
                 <div class="category-item">
                     <a href = "{{ route('category', ['category' => $category->name])}} ">{{$category->name}}</a>

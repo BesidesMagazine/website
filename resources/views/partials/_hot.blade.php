@@ -1,4 +1,4 @@
-<div class="hot-bar">
+<div class="hot-container">
     <h1>
         熱門文章
     </h1>
