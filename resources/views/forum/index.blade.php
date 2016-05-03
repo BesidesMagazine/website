@@ -189,7 +189,7 @@
 								<img src="img/forum/speaker_1.png" class="forum-speaker-intro-pic"/></a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									余宛容 
+									余宛如 
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
@@ -228,7 +228,7 @@
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
-									包氏集團、PPAPER雜誌創辦人
+									PPAPER雜誌創辦人
 								</span>
 								
 							</div>
