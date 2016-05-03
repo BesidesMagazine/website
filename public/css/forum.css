@@ -95,6 +95,20 @@
     background-color: white;
 }
 
+.forum-ticket-table{
+    text-align: center;
+    margin-top: 80px;
+    width:90%;
+    font-family: 'notosansbold-font',sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+     margin: 0 auto;
+    vertical-align: middle;
+}
+
+
+
 .forum-agenda {
     padding: 10px;
     background-color: white;
@@ -266,10 +280,16 @@
 }
 
 .forum-a{
+    font-size: 4em;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
     font-size: 1.5em;
     text-decoration: none;
     color: black;
     font-family: 'notosansbold-font',sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .forum-a:hover{

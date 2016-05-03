@@ -384,12 +384,31 @@
 
 			<div class="forum-signup" id="forum-link">
 				<h1 class="forum-h-orange">
-					立即報名
+					票價表
 				</h1>
-				<p class="forum-p">
-					
-					<a class="forum-a" href="">立即購票！</a>
-				</p>
+
+				<table class="forum-ticket-table">
+					<tr>
+						<th class="forum-agenda-th"></th>
+						<th class="forum-agenda-th">學生票</th>
+						<th class="forum-agenda-th">一般票</th>
+					<tr/>
+					<tr>
+						<td class="forum-agenda-td">早鳥票</td>
+						<td class="forum-agenda-td">650 元</td>
+						<td class="forum-agenda-td">900 元</td>
+					<tr/>
+					<tr>
+						<td class="forum-agenda-td">原價</td>
+						<td class="forum-agenda-td">950 元</td>
+						<td class="forum-agenda-td">1200 元</td>
+					<tr/>
+				</table>
+
+					<br />
+					<br />
+					<a class="forum-a" href="">5 / 6 開始販售</a>
+				
 				
 			</div>
 
