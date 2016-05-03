@@ -78,10 +78,10 @@
 						</td>
 						<td class="forum-agenda-td">
 							<span class="forum-agenda-speaker-intro">台灣知名電影導演</span><br />
-							<span class="forum-agenda-speaker-name">王小棣女士</span>
+							<span class="forum-agenda-speaker-name">王小棣 </span>
 							<br />
-							<span class="forum-agenda-speaker-intro">台灣知名導演、演員</span><br />
-							<span class="forum-agenda-speaker-name">鄭有傑先生</span>
+							<span class="forum-agenda-speaker-intro">知名演員、跑者</span><br />
+							<span class="forum-agenda-speaker-name">歐陽靖 </span>
 						</td>
 					</tr>
 
@@ -91,14 +91,16 @@
 							<span class="forum-agenda-category">文化藝術——生命故事</span><br /><br />
 						</td>
 						<td class="forum-agenda-td">
-							對談
+							<span>10:20~11:05</span>
+							<br /><br/>
+							<span>11:05~11:50</span>
 						</td>
 						<td class="forum-agenda-td">
 							<span class="forum-agenda-speaker-intro">ppaper 雜誌創辦人</span><br />
-							<span class="forum-agenda-speaker-name">包益民先生</span>
+							<span class="forum-agenda-speaker-name">包益民 </span>
 							<br />
-							<span class="forum-agenda-speaker-intro">台灣知名設計師</span><br />
-							<span class="forum-agenda-speaker-name">蕭青陽先生</span>
+							<span class="forum-agenda-speaker-intro">知名作家</span><br />
+							<span class="forum-agenda-speaker-name">Peter su </span>
 						</td>
 					</tr>
 
@@ -118,11 +120,11 @@
 							<span>13:50~14:20</span>
 						</td>
 						<td class="forum-agenda-td">
-							<span class="forum-agenda-speaker-intro">城邦集團執行長</span><br />
-							<span class="forum-agenda-speaker-name">何飛鵬先生</span>
+							<span class="forum-agenda-speaker-intro">商周集團執行長</span><br />
+							<span class="forum-agenda-speaker-name">王文靜 </span>
 							<br />
-							<span class="forum-agenda-speaker-intro">30 雜誌執行長</span><br />
-							<span class="forum-agenda-speaker-name">成章瑜女士</span>
+							<span class="forum-agenda-speaker-intro">世紀奧美公關創辦人</span><br />
+							<span class="forum-agenda-speaker-name">丁菱娟 </span>
 						</td>
 					</tr>
 
@@ -135,14 +137,14 @@
 							對談
 						</td>
 						<td class="forum-agenda-td">
-							<span class="forum-agenda-speaker-intro">Google 台灣總經理</span><br />
-							<span class="forum-agenda-speaker-name">簡立峰先生</span>
+							<span class="forum-agenda-speaker-intro">愛評網創辦人</span><br />
+							<span class="forum-agenda-speaker-name">葉卉婷 </span>
 							<br />
-							<span class="forum-agenda-speaker-intro">全聯社總裁</span><br />
-							<span class="forum-agenda-speaker-name">徐重仁先生</span>
+							<span class="forum-agenda-speaker-intro">Eztable創辦人</span><br />
+							<span class="forum-agenda-speaker-name">陳翰林 </span>
 							<br />
 							<span class="forum-agenda-speaker-intro">貝殼放大創辦人</span><br />
-							<span class="forum-agenda-speaker-name">林大涵先生</span>
+							<span class="forum-agenda-speaker-name">林大涵 </span>
 						</td>
 					</tr>
 
@@ -157,13 +159,16 @@
 							<span class="forum-agenda-category">社會參與——真實對話</span><br /><br />
 						</td>
 						<td class="forum-agenda-td">
+							<span>16:00~16:30</span>
+							<br /><br />
+							<span>16:30~17:00</span>
 						</td>
 						<td class="forum-agenda-td">
-							<span class="forum-agenda-speaker-intro">社企流創辦人</span><br />
-							<span class="forum-agenda-speaker-name">林以涵女士</span>
+							<span class="forum-agenda-speaker-intro">生態綠創辦人</span><br />
+							<span class="forum-agenda-speaker-name">余宛如 </span>
 							<br />
 							<span class="forum-agenda-speaker-intro">歐北來團隊創辦人</span><br />
-							<span class="forum-agenda-speaker-name">蔡昇達先生</span>
+							<span class="forum-agenda-speaker-name">蔡昇達 </span>
 						</td>
 					</tr>
 
@@ -184,7 +189,7 @@
 								<img src="img/forum/speaker_1.png" class="forum-speaker-intro-pic"/></a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									余宛容 女士
+									余宛容 
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
@@ -202,7 +207,7 @@
 								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									林大涵 先生
+									林大涵 
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
@@ -219,7 +224,7 @@
 								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									包益民 先生
+									包益民 
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
@@ -240,7 +245,7 @@
 								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									王小棣 女士
+									王小棣 
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
@@ -256,7 +261,7 @@
 								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									蔡昇達 先生
+									蔡昇達 
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
@@ -273,7 +278,7 @@
 								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									陳翰林 先生
+									陳翰林 
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
@@ -283,7 +288,7 @@
 							</div>
 						</td>
 					</tr>
-					<tr>
+					<tr class="forum-speaker-intro-tr">
 						<td class="forum-speaker-intro-pic-td">
 							<div class="forum-speaker-intro-card">
 								<a href="#lightbox7">
@@ -291,14 +296,15 @@
 								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									歐陽靖 女士
+									歐陽靖 
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
-									
+									知名演員、跑者
 								</span>
 								
 							</div>
+							</td>
 
 							<td class="forum-speaker-intro-pic-td">
 							<div class="forum-speaker-intro-card">
@@ -315,8 +321,63 @@
 								</span>
 								
 							</div>
-						</td>
-						</td>
+							</td>
+
+							<td class="forum-speaker-intro-pic-td">
+							<div class="forum-speaker-intro-card">
+								<a href="#lightbox9">
+								<img src="img/forum/speaker_9.png" class="forum-speaker-intro-pic"/>
+								</a>
+								<br />
+								<span class="forum-speaker-intro-name">
+									葉卉婷
+								</span>
+								<br />
+								<span class="forum-speaker-intro-job">
+									愛評網共同創辦人
+								</span>
+								
+							</div>
+							</td>
+							
+					</tr>
+
+					<tr class="forum-speaker-intro-tr">
+						<td class="forum-speaker-intro-pic-td">
+							<div class="forum-speaker-intro-card">
+								<a href="#lightbox10">
+								<img src="img/forum/speaker_10.png" class="forum-speaker-intro-pic"/>
+								</a>
+								<br />
+								<span class="forum-speaker-intro-name">
+									王文靜
+								</span>
+								<br />
+								<span class="forum-speaker-intro-job">
+									商周媒體集團執行長
+								</span>
+								
+							</div>
+							</td>
+					
+
+					
+						<td class="forum-speaker-intro-pic-td">
+							<div class="forum-speaker-intro-card">
+								<a href="#lightbox11">
+								<img src="img/forum/speaker_11.png" class="forum-speaker-intro-pic"/>
+								</a>
+								<br />
+								<span class="forum-speaker-intro-name">
+									丁菱娟
+								</span>
+								<br />
+								<span class="forum-speaker-intro-job">
+									世紀奧美公關創辦人
+								</span>
+								
+							</div>
+							</td>
 					</tr>
 				</table>
 			</div>
@@ -384,7 +445,7 @@
 					<img class="forum-partner-pic" src="img/forum/partners/mrcomputer.png" />
 					<br />
 					<br />
-					<span class="forum-s-h">電腦先生</span>
+					<span class="forum-s-h">電腦</span>
 				</div>
 
 
@@ -505,7 +566,7 @@
 	<div class="figure">
 		<a href="#forum_speakers" class="close">X</a>
 		<a href="#forum_speakers"><img src="img/forum/speaker_1.png" /></a>
-		<h1 class="forum-speaker-intro-name">余宛如 女士</h1>
+		<h1 class="forum-speaker-intro-name">余宛如 </h1>
 		<span class="forum-speaker-intro-job">生態綠創辦人</span>
 		<br />
 		<span class="forum-speaker-intro-text">
@@ -524,7 +585,7 @@
 	<div class="figure">
 		<a href="#forum_speakers" class="close">X</a>
 		<a href="#forum_speakers"><img src="img/forum/speaker_2.png" /></a>
-		<h1 class="forum-speaker-intro-name">林大涵 先生</h1>
+		<h1 class="forum-speaker-intro-name">林大涵 </h1>
 		<span class="forum-speaker-intro-job">貝殼放大創辦人</span>
 		<br />
 		<span class="forum-speaker-intro-text">
@@ -554,7 +615,7 @@
 	<div class="figure">
 		<a href="#forum_speakers" class="close">X</a>
 		<a href="#forum_speakers"><img src="img/forum/speaker_3.png" /></a>
-		<h1 class="forum-speaker-intro-name">包益民 先生</h1>
+		<h1 class="forum-speaker-intro-name">包益民 </h1>
 		<span class="forum-speaker-intro-job">包氏集團、PPAPER雜誌創辦人 </span>
 		<br />
 		<span class="forum-speaker-intro-text">
@@ -574,7 +635,7 @@
 	<div class="figure">
 		<a href="#forum_speakers" class="close">X</a>
 		<a href="#forum_speakers"><img src="img/forum/speaker_4.png" /></a>
-		<h1 class="forum-speaker-intro-name">王小棣 女士</h1>
+		<h1 class="forum-speaker-intro-name">王小棣 </h1>
 		<span class="forum-speaker-intro-job">金鐘獎、國家文藝獎得主 </span>
 		<br />
 		<span class="forum-speaker-intro-text">
@@ -597,7 +658,7 @@
 	<div class="figure">
 		<a href="#forum_speakers" class="close">X</a>
 		<a href="#forum_speakers"><img src="img/forum/speaker_5.png" /></a>
-		<h1 class="forum-speaker-intro-name">蔡昇達 先生</h1>
+		<h1 class="forum-speaker-intro-name">蔡昇達 </h1>
 		<span class="forum-speaker-intro-job">歐北來團隊共同創辦人</span>
 		<br />
 		<span class="forum-speaker-intro-text">
@@ -617,7 +678,7 @@
 	<div class="figure">
 		<a href="#forum_speakers" class="close">X</a>
 		<a href="#forum_speakers"><img src="img/forum/speaker_6.png" /></a>
-		<h1 class="forum-speaker-intro-name">陳翰林 先生</h1>
+		<h1 class="forum-speaker-intro-name">陳翰林 </h1>
 		<span class="forum-speaker-intro-job">EZTABLE創辦人</span>
 		<br />
 		<span class="forum-speaker-intro-text">
@@ -642,8 +703,8 @@
 	<div class="figure">
 		<a href="#forum_speakers" class="close">X</a>
 		<a href="#forum_speakers"><img src="img/forum/speaker_7.png" /></a>
-		<h1 class="forum-speaker-intro-name">歐陽靖 女士</h1>
-		<span class="forum-speaker-intro-job"></span>
+		<h1 class="forum-speaker-intro-name">歐陽靖 </h1>
+		<span class="forum-speaker-intro-job">知名演員、跑者</span>
 		<br />
 		<span class="forum-speaker-intro-text">
 			<ul>
@@ -664,16 +725,80 @@
 		<br />
 		<span class="forum-speaker-intro-text">
 			<ul>
-			<li>「夢想其實不是一段距離，而是一個你會堅持到底的決定。」他，是蘇世豪，Peter Su，76年次的他，是一位暢銷的作家，是一位踏遍各地的背包客，更是一位熱愛攝影與設計的藝術家。在大家眼中看似一切順遂的他，其實也有過坎坷的人生。</li>
+				<li>BRAND名牌誌駐站作家。一個熱愛設計也喜歡音樂的男孩，喜歡自彈自唱的木吉他創作方式，也愛攝影，19歲開始踏上背包客之路。目前為天下雜誌駐站作家，Cheers駐站作家。
+				</li>
+				<li>2014 出版《夢想這條路踏上了，跪著也要走完》。
+				</li>
+				<li>2015 出版《愛：即使世界不斷讓你失望，也要繼續相信愛》。
+				</li>
 
-			<li>毅然決然放棄大學升學考試，進入廣告公司任職，對他而言，最重要的不是學歷，而是知道自己想要甚麼，做自己熱愛的事。而他的夢想就是，在自己的能力範圍內幫助別人，做一個有價值的人。</li>
+			</ul>
+		</span>
+	</div>
+</div>
 
-			<li>他利用擅長的文字和影像，將他認為有意義的事和大家分享，讓這件事情可以透過梯歡他的人傳遞出去。他曾經因此而拯救了一位罹癌媽媽，也曾經和便當店合作，發起代用便當的活動。</li>
+<div id="lightbox9" class="lightbox">
+	<div class="figure">
+		<a href="#forum_speakers" class="close">X</a>
+		<a href="#forum_speakers"><img src="img/forum/speaker_9.png" /></a>
+		<h1 class="forum-speaker-intro-name">葉卉婷</h1>
+		<span class="forum-speaker-intro-job">愛評網共同創辦人</span>
+		<br />
+		<span class="forum-speaker-intro-text">
+			<ul>
+				<li>
+					葉卉婷，七年級生的創業家，是台灣最大美食情報分享網站 − 愛評網共同創辦人。找到痛點，去解決問題，這就是熱愛美食的葉卉婷創辦愛評網的初衷。
+					<br />
+					愛評網不僅是台灣最大的美食情報分享網站，更是全台最有影響力的食玩生活平台，從2006年創立，到現在獲得國際創投CyberAgent Venture 與NEC Corporation跨國策略聯盟投資，愛評網的未來目標是成為華人生活圈中最大的消費經驗分享網站。
+					<br />
+					站內商家數超過30萬筆，每月瀏覽量超過8500萬，消費經驗分享文章將近46萬，在在顯示出愛評網在我們生活中的重要性，這些都是葉卉婷一路下來一點一滴努力累積的成果。
+					<br />
+					關於創業，葉卉婷這麼說:「我沒有想到一定要成功，創業，就是一件對自己負責的事，這筆錢把它看成學費，其他學系歷程很難比創業更刻骨銘心」秉持著這樣的心態，熱血以及堅持讓她實踐了自己的夢想。讓我們一起期待把興趣和創業結合的葉卉婷，會為我們擦出甚麼樣的火花。
+					</li>
+			<li>愛評網介紹:</li>
+				<ul>
+					<li>台灣最大的美食情報分享網站</li>
+					<li>國際創投CyberAgent Venture，NEC Corporation跨國策略聯盟投資</li>
+					<li>站內商家數超過30萬</li>
+					<li>每月瀏覽量超過8500萬</li>
+				</ul>
+			</ul>
+		</span>
+	</div>
+</div>
 
-			<li>在他的人生旅途中，他學到了不要逃避。也許過程很辛苦，但他從來不放棄他的夢想，因為他說「有些路不走，你永遠不知道會有多美，所以還是繼續向前走吧！」夢想，有時候不是看到了才相信，而是相信了才看到！</li>
+<div id="lightbox10" class="lightbox">
+	<div class="figure">
+		<a href="#forum_speakers" class="close">X</a>
+		<a href="#forum_speakers"><img src="img/forum/speaker_10.png" /></a>
+		<h1 class="forum-speaker-intro-name">王文靜</h1>
+		<span class="forum-speaker-intro-job">商周媒體集團執行長</span>
+		<br />
+		<span class="forum-speaker-intro-text">
+			<ul>
+				<li>現任商周媒體集團執行長，曾任商業週刊總編輯十年。歷經廣播、電視、雜誌三大媒體經驗，曾參與台灣首家24小時新聞台TVBS-N的創立
+				</li>
+				<li>她所領導的《商業周刊》是台灣地區發行量第一的雜誌，也是最具影響力的媒體之一
+				</li>
+				<li>2006年獲艾森豪獎學金，為台灣有史以來第二位女性得主</li>
+			</ul>
+		</span>
+	</div>
+</div>
 
-			<li>2014 Peter出版了《夢想這條路踏上了，跪著也要走完》，2015 出版《愛：即使世界不斷讓你失望，也要繼續相信愛》，目前更是天下雜誌駐站作家．Brand名牌誌專欄作家，Cheers駐站作家。</li>
-
+<div id="lightbox11" class="lightbox">
+	<div class="figure">
+		<a href="#forum_speakers" class="close">X</a>
+		<a href="#forum_speakers"><img src="img/forum/speaker_11.png" /></a>
+		<h1 class="forum-speaker-intro-name">丁菱娟</h1>
+		<span class="forum-speaker-intro-job">世紀奧美公關創辦人</span>
+		<br />
+		<span class="forum-speaker-intro-text">
+			<ul>
+				<li>世紀奧美公關創辦人、作家、世新及銘傳大學兼任副教授，台北搖籃計劃新創團隊導師。</li>
+				<li>台灣公關產業的意見領袖，在其帶領下，世紀奧美公關成為台灣公關界的領導品牌。</li>
+				<li>曾獲2013年亞太區CMO 創業類的女性領袖獎。</li>
+				<li>著有《專業與美麗》、《做事堅定，做人柔軟》以及《你拿青春做什麼》等書籍，並持續於媒體上發表專欄</li>
 
 			</ul>
 		</span>
