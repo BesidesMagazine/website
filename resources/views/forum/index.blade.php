@@ -193,7 +193,7 @@
 				<h1 class="forum-h">
 					講者簡介
 				</h1>
-				
+
 				<table class="forum-speaker-intro-table">
 					<tr class="forum-speaker-intro-tr">
 						<td class="forum-speaker-intro-pic-td">
@@ -203,32 +203,32 @@
 								<img src="img/forum/speaker_1.png" class="forum-speaker-intro-pic"/></a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									余宛如 
+									余宛如
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
 									生態綠創辦人
 								</span>
 							</div>
-							
+
 						</td>
 
 						<td class="forum-speaker-intro-pic-td">
-							
+
 							<div class="forum-speaker-intro-card">
 								<a href="#lightbox2">
 								<img src="img/forum/speaker_2.png" class="forum-speaker-intro-pic"/>
 								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									林大涵 
+									林大涵
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
 									貝殼放大創辦人
 								</span>
 								<br />
-								
+
 							</div>
 						</td>
 						<td class="forum-speaker-intro-pic-td">
@@ -238,13 +238,13 @@
 								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									包益民 
+									包益民
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
 									PPAPER雜誌創辦人
 								</span>
-								
+
 							</div>
 						</td>
 
@@ -259,13 +259,13 @@
 								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									王小棣 
+									王小棣
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
 									金鐘獎、國家文藝獎得主
 								</span>
-								
+
 							</div>
 						</td>
 						<td class="forum-speaker-intro-pic-td">
@@ -275,13 +275,13 @@
 								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									蔡昇達 
+									蔡昇達
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
 									歐北來團隊共同創辦人
 								</span>
-								
+
 							</div>
 						</td>
 
@@ -292,13 +292,13 @@
 								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									陳翰林 
+									陳翰林
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
 									EZTBLE創辦人
 								</span>
-								
+
 							</div>
 						</td>
 					</tr>
@@ -310,13 +310,13 @@
 								</a>
 								<br />
 								<span class="forum-speaker-intro-name">
-									歐陽靖 
+									歐陽靖
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
 									知名演員、跑者
 								</span>
-								
+
 							</div>
 							</td>
 
@@ -333,7 +333,7 @@
 								<span class="forum-speaker-intro-job">
 									BRAND名牌誌駐站作家
 								</span>
-								
+
 							</div>
 							</td>
 
@@ -350,10 +350,10 @@
 								<span class="forum-speaker-intro-job">
 									愛評網共同創辦人
 								</span>
-								
+
 							</div>
 							</td>
-							
+
 					</tr>
 
 					<tr class="forum-speaker-intro-tr">
@@ -370,12 +370,12 @@
 								<span class="forum-speaker-intro-job">
 									商周媒體集團執行長
 								</span>
-								
+
 							</div>
 							</td>
-					
 
-					
+
+
 						<td class="forum-speaker-intro-pic-td">
 							<div class="forum-speaker-intro-card">
 								<a href="#lightbox11">
@@ -389,7 +389,7 @@
 								<span class="forum-speaker-intro-job">
 									世紀奧美公關創辦人
 								</span>
-								
+
 							</div>
 							</td>
 					</tr>
@@ -427,9 +427,9 @@
 
 					<br />
 					<br />
-					<a class="forum-a" href="">5 / 6 開始販售</a>
-				
-				
+					<a class="forum-a" href="">5 / 7 開始販售</a>
+
+
 			</div>
 
 			<div class="forum-origin" id="forum-location">
@@ -517,7 +517,7 @@
 					<br />
 					<span class="forum-s-h">BenchLife</span>
 				</div>
-				
+
 				<br />
 				<br />
 
@@ -592,7 +592,7 @@
 					<span class="forum-s-h">欣傳媒</span>
 				</div>
 
-				
+
 			</div>
 		</div>
 	</div>
