@@ -7,6 +7,7 @@ use App\Article;
 use Validator;
 use App\Http\Requests;
 use App\Http\Requests\AdminAuthenticationRequest;
+use App\Http\Requests\AdminCreateEditorRequest;
 use App\Http\Controllers\Controller;
 use Auth;
 
@@ -49,28 +50,18 @@ class AdminController extends Controller
         }
     }
 
-    public function createEditor(Request $request){
-    	$validator = Validator::make($request->all(),[
-            'email' => 'required|email|unique:editors',
-            'name' =>'required|max:140',
-            'password'=>'required|min:4',
-        ]);
-        if ($validator->fails()) {
-           // get the error messages from the validator
-           $messages = $validator->messages();
-           // redirect our user back to the form with the errors from the validator
-           return  back()->withErrors($validator);
-        } else {
+    public function createEditor(AdminCreateEditorRequest $request){
 
-            $editor = new Editor();
-            $editor->email    = $request['email'];
-            $editor->name     = $request['name'];
-            $editor->password = bcrypt($request['password']);
 
-            $editor->save();
-            Auth::login($editor);
-            return redirect()->route('admin');
-        }
+        $editor = new Editor();
+        $editor->email    = $request['email'];
+        $editor->name     = $request['name'];
+        $editor->password = bcrypt($request['password']);
+
+        $editor->save();
+        Auth::login($editor);
+        return redirect()->route('admin');
+
     }
 
 
