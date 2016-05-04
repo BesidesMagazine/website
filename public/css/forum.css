@@ -149,6 +149,8 @@
     font-size: 1.2em;
     text-indent: 0.5em;
     color: EF4136;
+    font-family: 'notosansbold-font',sans-serif;
+    background-color: white;
 }
 
 .forum-agenda-category-intro {
