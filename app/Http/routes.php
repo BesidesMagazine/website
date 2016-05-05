@@ -27,6 +27,8 @@ Route::group(['domain' => 'admin.' . $domain], function(){
 
 		Route::resource('partner', 'PartnerController');
 
+		Route::resource('parcategory', 'ParcategoryController');
+
 	});
 
 });

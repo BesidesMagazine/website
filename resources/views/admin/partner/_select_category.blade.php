@@ -1,0 +1,1 @@
+<option>{{$parcategory->name}}</option>

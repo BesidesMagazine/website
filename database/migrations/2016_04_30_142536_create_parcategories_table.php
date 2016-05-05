@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateArticlesTable extends Migration
+class CreateParcategoriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,13 +12,9 @@ class CreateArticlesTable extends Migration
      */
     public function up()
     {
-        Schema::create('articles', function (Blueprint $table) {
+         Schema::create('parcategories', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('editor_id');
-            $table->string('title'); 
-            $table->text('content');
-            $table->string('preview');
-            $table->string('previewimg');
+            $table->string('name');
             $table->timestamps();
         });
     }
@@ -30,6 +26,6 @@ class CreateArticlesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('articles');
+         Schema::drop('parcategories');
     }
 }

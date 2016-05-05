@@ -8,7 +8,7 @@
     <h2>分類</h2>
     <select form="form" name="category">
       @foreach ($categories as $category)
-        @if ($category->name === $article->category_name)
+        @if ($category->name == $article->category_name)
           <option selected="selected">{{$category->name}}</option>
         @endif
         <option>{{$category->name}}</option>

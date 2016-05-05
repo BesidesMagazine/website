@@ -10,6 +10,15 @@
         <input type="text" class="form-control" name="name" value="{{$partner->name}}" >
         <h2>介紹</h2>
         <textarea class="form-control" name="introduction"  >{{$partner->introduction}}</textarea>
+        <h2>廠商分類</h2>
+        <select form="form" name="parcategory">
+          @foreach ($parcategories as $parcategory)
+            @if ($parcategory->name == $partner->parcategory_name)
+              <option selected="selected">{{$parcategory->name}}</option>
+            @endif
+            <option>{{$parcategory->name}}</option>
+          @endforeach
+        </select>
         <h2>logo url</h2>
         <input type="text" class="form-control" name="logourl" value="{{$partner->logourl}}" ></input>
         <h2>連結</h2>
