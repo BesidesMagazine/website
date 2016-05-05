@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Partner;
-use App\Category;
 use App\Http\Requests;
 use Validator;
 
@@ -76,6 +75,6 @@ class PartnerController extends Controller
     }
 
     public function listPartners(){
-        return view('partner.list', ['categories' => Category::all(), 'partners' => Partner::all()]);
+        return view('partner.list', ['partners' => Partner::all()]);
     }
 }

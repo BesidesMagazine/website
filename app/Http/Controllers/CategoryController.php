@@ -63,6 +63,6 @@ class CategoryController extends Controller
 
         $today = Carbon::today();
         $articles = Article::where('category_name', $category)->orderBy('created_at', 'desc')->get();
-        return view('category.list', ['articles' => $articles, 'categories' => Category::all(), 'hotArticles' => Article::orderBy('click', 'desc')->where('created_at', '>', $today->subWeek())->take(5)->get(), 'category' => $category]);
+        return view('category.list', ['articles' => $articles, 'hotArticles' => Article::orderBy('click', 'desc')->where('created_at', '>', $today->subWeek())->take(5)->get(), 'category' => $category]);
     }
 }
