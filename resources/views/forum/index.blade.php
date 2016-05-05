@@ -406,28 +406,32 @@
 						<th class="forum-agenda-th"></th>
 						<th class="forum-agenda-th">學生票</th>
 						<th class="forum-agenda-th">一般票</th>
+						<th class="forum-agenda-th">售票時間</th>
 					<tr/>
 					<tr>
 						<td class="forum-agenda-td">早鳥票</td>
 						<td class="forum-agenda-td">650 元</td>
 						<td class="forum-agenda-td">900 元</td>
+						<td class="forum-agenda-td">5/7 00:00 ~ 6/4 00:00</td>
 					<tr/>
 					<tr>
 						<td class="forum-agenda-td">原價</td>
 						<td class="forum-agenda-td">950 元</td>
 						<td class="forum-agenda-td">1200 元</td>
+						<td class="forum-agenda-td">5/7 00:00 ~ 6/18 00:00</td>
 					<tr/>
 
 					<tr>
-						<td class="forum-agenda-td">團體票</td>
+						<td class="forum-agenda-td">團體票（五人或以上）</td>
 						<td class="forum-agenda-td"></td>
 						<td class="forum-agenda-td">800 元</td>
+						<td class="forum-agenda-td">5/7 00:00 ~ 6/18 00:00</td>
 					<tr/>
 				</table>
 
 					<br />
 					<br />
-					<a class="forum-a" href="">5 / 6 開始販售</a>
+					<a class="forum-a" href="">5 / 7 開始販售</a>
 				
 				
 			</div>
