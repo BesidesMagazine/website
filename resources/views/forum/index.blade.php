@@ -42,7 +42,7 @@
 				<span class="forum-agenda-category">
 					對話未來</span>
 				<p class="forum-p">
-					在快速變遷的時代下，帶來便利也面臨許多難題，包含來自環境與心底的壓力 ，對於未來的不確定感，也同樣代表著多樣的可能性存在，在其中盡可能發掘與挑戰對話的各種方式，聽見內在的聲音。	
+					在快速變遷的時代下，帶來便利也面臨許多難題，包含來自環境與心底的壓力 ，對於未來的不確定感，也同樣代表著多樣的可能性存在，在其中盡可能發掘與挑戰對話的各種方式，聽見內在的聲音。
 				</p>
 
 				<span class="forum-agenda-category">
@@ -296,7 +296,7 @@
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
-									EZTBLE創辦人
+									EZTABLE創辦人
 								</span>
 
 							</div>
