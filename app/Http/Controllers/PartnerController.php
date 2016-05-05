@@ -9,6 +9,8 @@ use App\Parcategory;
 use App\Http\Requests;
 use Validator;
 
+
+
 class PartnerController extends Controller
 {
     public function index(){
@@ -25,6 +27,7 @@ class PartnerController extends Controller
         $validator = Validator::make($request->all(),[
         'name' => 'required|unique:partners,name',
         'introduction' => 'required',
+         'parcategory' => 'required',
         'logourl' => 'required',
         'connect' => 'required',
         ]);
@@ -45,15 +48,17 @@ class PartnerController extends Controller
 
     public function edit($id)
     {
-        return view('admin.partner.edit',['parcategories' => Parcategory::all(),'partner' => Partner::where('id', $id)->first()]);
+        return view('admin.partner.edit',['parcategories' => Parcategory::all(), 'partner' => Partner::where('id', $id)->first()]);
     }
 
 
     public function update(Request $request, $id)
     {
+
         $validator = Validator::make($request->all(),[
         'name' => 'required',
         'introduction' => 'required',
+        'parcategory' => 'required',
         'logourl' => 'required',
         'connect' => 'required',
         ]);
