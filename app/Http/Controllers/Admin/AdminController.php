@@ -3,9 +3,6 @@
 namespace App\Http\Controllers\admin;
 
 use App\Editor;
-use App\Article;
-use Validator;
-use App\Http\Requests;
 use App\Http\Requests\AdminAuthenticationRequest;
 use App\Http\Requests\AdminCreateEditorRequest;
 use App\Http\Controllers\Controller;
@@ -15,10 +12,9 @@ class AdminController extends Controller
 {
 
 	public function __construct(){
-        $this->middleware('auth', ['only' => [
-            'index',
-            'logout',
-			'register',
+        $this->middleware('auth', ['except' => [
+            'login',
+            'authenticate',
         ]]);
     }
 
@@ -52,12 +48,10 @@ class AdminController extends Controller
 
     public function createEditor(AdminCreateEditorRequest $request){
 
-
         $editor = new Editor();
         $editor->email    = $request['email'];
         $editor->name     = $request['name'];
         $editor->password = bcrypt($request['password']);
-
         $editor->save();
         Auth::login($editor);
         return redirect()->route('admin');
