@@ -11,16 +11,12 @@
         <h2>介紹</h2>
         <textarea class="form-control" name="introduction"  >{{$partner->introduction}}</textarea>
 
-        <h2>廠商分類</h2>
-        <select form="form" name="partnercategory">
-         @foreach ($partner_categories as $partnercategory) 
-         @if ($partnercategory->name == $partner->partnercategoryname)
-        <option selected="selected">{{$partnercategory->name}}</option>
-         @endif
-        <option>{{$partnercategory->name}}</option>
-         @endforeach
-     
-        </select>
+         <h2>廠商分類</h2>
+         <select name="partnercategory">
+           @each('admin.partner._select_category', $partner_categories, 'partnercategory')
+         </select>
+
+        
 
 
         <h2>logo url</h2>

@@ -58,7 +58,7 @@ class PartnerController extends Controller
         $validator = Validator::make($request->all(),[
         'name' => 'required',
         'introduction' => 'required',
-        'partnercategory' => 'required',
+         'partnercategory' => 'required',
         'logourl' => 'required',
         'connect' => 'required',
         ]);
