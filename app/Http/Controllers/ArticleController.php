@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use App\Http\Requests\ArticleRequest;
 use App\Article;
 use App\Category;
 use App\Author;
@@ -22,60 +23,39 @@ class ArticleController extends Controller{
         return view('admin.article.create',['categories' => Category::all(), 'authors' => Author::all() ]);
     }
 
-    public function store(Request $request){
-        $validator = Validator::make($request->all(),[
-            'title' => 'required',
-            'category' => 'required',
-            'content' => 'required',
-            'preview' => 'required',
-            'previewimg' => 'required',
-            'author' => 'required',
-        ]);
-        if ($validator->fails()) {
-           return  back()->withErrors($validator)->withInput();
-        } else {
-            $article = new Article();
-            $article->title = $request['title'];
-            $article->content = $request['content'];
-            $article->preview = $request['preview'];
-            $article->previewimg = $request['previewimg'];
-            $article->editor()->associate(Auth::user());
-            $article->category_name = $request['category'];
-            $article->author_name = $request['author'];
-            $article->save();
-            return redirect()->route('article.index');
-        }
+    public function store(ArticleRequest $request){
+
+        $article = new Article();
+        $article->title = $request['title'];
+        $article->content = $request['content'];
+        $article->preview = $request['preview'];
+        $article->previewimg = $request['previewimg'];
+        $article->editor()->associate(Auth::user());
+        $article->category_name = $request['category'];
+        $article->author_name = $request['author'];
+        $article->save();
+        return redirect()->route('article.index');
+
     }
 
     public function edit($id){
         return view('admin.article.edit', ['categories' => Category::all(), 'authors' => Author::all(), 'article' => Article::where('id', $id)->first()]);
     }
 
-    public function update(Request $request, $id){
+    public function update(ArticleRequest $request, $id){
 
-        $validator = Validator::make($request->all(),[
-            'title' => 'required',
-            'category' => 'required',
-            'content' => 'required',
-            'preview' => 'required',
-            'previewimg' => 'required',
-            'author' => 'required',
-        ]);
+        
+        $article = Article::where('id', $id)->first();
+        $article->title = $request['title'];
+        $article->content = $request['content'];
+        $article->preview = $request['preview'];
+        $article->previewimg = $request['previewimg'];
+        $article->editor()->associate(Auth::user());
+        $article->category_name = $request['category'];
+        $article->author_name = $request['author'];
+        $article->save();
+        return redirect()->route('article.index');
 
-        if ($validator->fails()) {
-           return  back()->withErrors($validator)->withInput();
-        } else {
-            $article = Article::where('id', $id)->first();
-            $article->title = $request['title'];
-            $article->content = $request['content'];
-            $article->preview = $request['preview'];
-            $article->previewimg = $request['previewimg'];
-            $article->editor()->associate(Auth::user());
-            $article->category_name = $request['category'];
-            $article->author_name = $request['author'];
-            $article->save();
-            return redirect()->route('article.index');
-        }
     }
 
     public function destroy($id){
