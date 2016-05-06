@@ -72,11 +72,11 @@ class AuthorController extends Controller
     }
 
     public function listAuthors(){
-        return view('author.index', ['authors' => Author::all(), 'categories' => Category::all()]);
+        return view('author.index', ['authors' => Author::all()]);
     }
 
     public function showAuthor($author_name){
         $author = Author::where('name', $author_name)->first();
-        return view('author.show', ['author' => $author, 'categories' => Category::all(), 'articles' => Article::where('author_name', $author_name)->get()]);
+        return view('author.show', ['author' => $author, 'articles' => Article::where('author_name', $author_name)->get()]);
     }
 }

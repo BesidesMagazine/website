@@ -9,7 +9,7 @@ use App\Http\Requests;
 class AboutController extends Controller
 {
     public function index(){
-        return view('about.index',['categories' => Category::all()]);
+        return view('about.index');
     }
 
 }

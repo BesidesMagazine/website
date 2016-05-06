@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\admin;
+namespace App\Http\Controllers;
 
 use App\Editor;
 use App\Http\Requests\AdminAuthenticationRequest;
@@ -19,7 +19,7 @@ class AdminController extends Controller
     }
 
 	public function index(){
-    	return redirect()->route('article.index');
+    	return view('admin.index');
 	}
 
 	public function login(){
@@ -39,7 +39,7 @@ class AdminController extends Controller
     }
 
     public function authenticate(AdminAuthenticationRequest $request){
-    	if(Auth::attempt(['email'=>$request['email'], 'password' => $request['password']])){
+    	if(Auth::attempt(['email'=>$request->email, 'password' => $request->password])){
         	return redirect()->intended('article');
         } else{
         	return redirect()->back();
@@ -49,9 +49,9 @@ class AdminController extends Controller
     public function createEditor(AdminCreateEditorRequest $request){
 
         $editor = new Editor();
-        $editor->email    = $request['email'];
-        $editor->name     = $request['name'];
-        $editor->password = bcrypt($request['password']);
+        $editor->email    = $request->email;
+        $editor->name     = $request->name;
+        $editor->password = bcrypt($request->password);
         $editor->save();
         Auth::login($editor);
         return redirect()->route('admin');
