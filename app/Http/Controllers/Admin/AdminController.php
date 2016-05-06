@@ -19,7 +19,7 @@ class AdminController extends Controller
     }
 
 	public function index(){
-    	return redirect()->route('article.index');
+    	return view('admin.index');
 	}
 
 	public function login(){
