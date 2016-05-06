@@ -1,1 +1,1 @@
-<option>{{$parcategory->name}}</option>
+<option>{{$partnercategory->name}}</option>

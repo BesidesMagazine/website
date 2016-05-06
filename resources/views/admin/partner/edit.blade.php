@@ -12,12 +12,12 @@
         <textarea class="form-control" name="introduction"  >{{$partner->introduction}}</textarea>
 
         <h2>廠商分類</h2>
-        <select form="form" name="parcategory">
-         @foreach ($parcategories as $parcategory) 
-         @if ($parcategory->name == $partner->parcategory_name)
-        <option selected="selected">{{$parcategory->name}}</option>
+        <select form="form" name="partnercategory">
+         @foreach ($partner_categories as $partnercategory) 
+         @if ($partnercategory->name == $partner->partnercategoryname)
+        <option selected="selected">{{$partnercategory->name}}</option>
          @endif
-        <option>{{$parcategory->name}}</option>
+        <option>{{$partnercategory->name}}</option>
          @endforeach
      
         </select>

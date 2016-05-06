@@ -4,9 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Parcategory extends Model
+class PartnerCategory extends Model
 {
-     protected $table = 'parcategories';
+     protected $table = 'partner_categories';
 	 protected $fillable = ['name'];
-
 }

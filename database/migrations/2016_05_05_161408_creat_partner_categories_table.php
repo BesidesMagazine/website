@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddParcategoryIdToPartnersTable extends Migration
+class CreatPartnerCategoriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,8 +12,10 @@ class AddParcategoryIdToPartnersTable extends Migration
      */
     public function up()
     {
-        Schema::table('partners', function (Blueprint $table) {
-            $table->string('parcategory_name')->after('name');
+         Schema::create('partner_categories', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('name');
+            $table->timestamps();
         });
     }
 
@@ -24,8 +26,6 @@ class AddParcategoryIdToPartnersTable extends Migration
      */
     public function down()
     {
-        Schema::table('partners', function (Blueprint $table) {
-            $table->dropColumn('parcategory_name');
-        });
+         Schema::drop('partner_categories');
     }
 }

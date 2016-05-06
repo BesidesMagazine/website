@@ -1,5 +1,5 @@
- <div class="category-wall-title"><h1>{{ $parcategory->name }}</h1></div>
+ <div class="category-wall-title"><h1>{{ $partnercategory->name }}</h1></div>
 
-  @foreach($partners->where('parcategory_name', $parcategory->name)as $partner)
+  @foreach($partners->where('partnercategoryname', $partnercategory->name)as $partner)
         @include('partner._partner_card')
   @endforeach

@@ -5,8 +5,8 @@
 <dir class="row">
 <table class="table table-hover">
   <tr>
-    <form action="{{route('parcategory.update',['id' => $parcategory->id])}}" method="post">
-        <td><input class="form-control" type="text" name="parcategoryname" value="{{$parcategory->name}}"></td>
+    <form action="{{route('partnercategory.update',['id' => $partnercategory->id])}}" method="post">
+        <td><input class="form-control" type="text" name="partnercategoryname" value="{{$partnercategory->name}}"></td>
         <td></td>
         <td><input type="submit" class="btn btn-success" value="更新" ></td>
         <input type="hidden" name="_method" value="put" />

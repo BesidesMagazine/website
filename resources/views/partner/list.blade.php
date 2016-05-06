@@ -9,7 +9,7 @@
     <h1>合作夥伴</h1>
     <hr>
 
-    @foreach($parcategories as $parcategory)
+    @foreach($partner_categories as $partnercategory)
             @include('partner._all_partners_wall')
     @endforeach
 

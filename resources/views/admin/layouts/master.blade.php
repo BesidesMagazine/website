@@ -28,7 +28,7 @@
 	                <li><a href="{{ route('category.index') }}">文章分類</a></li>
                     <li><a href="{{ route('author.index') }}">作者</a></li>
                     <li><a href="{{ route('partner.index') }}">夥伴</a></li>
-                    <li><a href="{{ route('parcategory.index') }}">夥伴分類</a></li>
+                    <li><a href="{{ route('partnercategory.index') }}">夥伴分類</a></li>
 	            	</ul>
 	            	<ul class="nav navbar-nav navbar-right">
 	                	<li><a>你好, {{ Auth::user()->name }}</a></li>

@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Partner;
 use App\Category;
-use App\Parcategory;
+use App\PartnerCategory;
 use App\Http\Requests;
 use Validator;
 
@@ -19,7 +19,7 @@ class PartnerController extends Controller
 
     public function create()
     {
-        return view('admin.partner.create',['parcategories' => Parcategory::all() ]);
+        return view('admin.partner.create',['partner_categories' => PartnerCategory::all() ]);
     }
 
     public function store(Request $request)
@@ -27,7 +27,7 @@ class PartnerController extends Controller
         $validator = Validator::make($request->all(),[
         'name' => 'required|unique:partners,name',
         'introduction' => 'required',
-         'parcategory' => 'required',
+         'partnercategory' => 'required',
         'logourl' => 'required',
         'connect' => 'required',
         ]);
@@ -38,7 +38,7 @@ class PartnerController extends Controller
             $partner = new Partner();
             $partner->name   = $request['name'];
             $partner->introduction   = $request['introduction'];
-            $partner->parcategory_name = $request['parcategory'];
+            $partner->partnercategoryname = $request['partnercategory'];
             $partner->logourl   = $request['logourl'];
             $partner->connect  = $request['connect'];
             $partner->save();
@@ -48,7 +48,7 @@ class PartnerController extends Controller
 
     public function edit($id)
     {
-        return view('admin.partner.edit',['parcategories' => Parcategory::all(), 'partner' => Partner::where('id', $id)->first()]);
+        return view('admin.partner.edit',['partner_categories' => PartnerCategory::all(), 'partner' => Partner::where('id', $id)->first()]);
     }
 
 
@@ -58,7 +58,7 @@ class PartnerController extends Controller
         $validator = Validator::make($request->all(),[
         'name' => 'required',
         'introduction' => 'required',
-        'parcategory' => 'required',
+        'partnercategory' => 'required',
         'logourl' => 'required',
         'connect' => 'required',
         ]);
@@ -69,7 +69,7 @@ class PartnerController extends Controller
             $partner = Partner::where('id', $id)->first();;
             $partner->name   = $request['name'];
             $partner->introduction   = $request['introduction'];
-            $partner->parcategory_name = $request['parcategory'];
+            $partner->partnercategoryname = $request['partnercategory'];
             $partner->logourl   = $request['logourl'];
             $partner->connect  = $request['connect'];
             $partner->save();
@@ -84,6 +84,6 @@ class PartnerController extends Controller
     }
 
     public function listPartners(){
-        return view('partner.list', ['categories' => Category::all(),'parcategories' => Parcategory::all(), 'partners' => Partner::all()]);
+        return view('partner.list', ['categories' => Category::all(),'partner_categories' => PartnerCategory::all(), 'partners' => Partner::all()]);
     }
 }
