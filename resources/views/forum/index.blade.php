@@ -431,7 +431,7 @@
 
 					<br />
 					<br />
-					<a class="forum-a" href="">5 / 7 開始販售</a>
+					<a class="forum-a" href="http://www.accupass.com/event/register/1603300933071956644027">立即購票</a>
 			</div>
 
 			<div class="forum-origin" id="forum-location">
