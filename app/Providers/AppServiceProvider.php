@@ -13,7 +13,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        view()->composer(
+            ['welcome.index', 'layouts.master'] , 'App\Http\ViewComposers\CategoryComposer'
+        );
     }
 
     /**

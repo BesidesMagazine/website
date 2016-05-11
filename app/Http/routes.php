@@ -5,17 +5,17 @@ $domain = substr(env('APP_URL'), 7); //hard code
 
 Route::group(['domain' => 'admin.' . $domain], function(){
 
-	Route::get('/',['as' => 'admin', 'uses' => 'Admin\AdminController@index']);
+	Route::get('/',['as' => 'admin', 'uses' => 'AdminController@index']);
 
-	Route::get('login', ['as' => 'login', 'uses' => 'Admin\AdminController@login']);
+	Route::get('login', ['as' => 'login', 'uses' => 'AdminController@login']);
 
-	Route::get('register', ['as' => 'register', 'uses' => 'Admin\AdminController@register']);
+	Route::get('register', ['as' => 'register', 'uses' => 'AdminController@register']);
 
-	Route::post('authenticate', ['as' => 'authenticate', 'uses' =>  'Admin\AdminController@authenticate']);
+	Route::post('authenticate', ['as' => 'authenticate', 'uses' =>  'AdminController@authenticate']);
 
-	Route::post('createEditor', ['as' => 'createEditor', 'uses' => 'Admin\AdminController@createEditor']);
+	Route::post('createEditor', ['as' => 'createEditor', 'uses' => 'AdminController@createEditor']);
 
-	Route::get('logout', ['as' => 'logout', 'uses' => 'Admin\AdminController@logout']);
+	Route::get('logout', ['as' => 'logout', 'uses' => 'AdminController@logout']);
 
 	Route::group(['middleware' => 'auth'], function(){
 
