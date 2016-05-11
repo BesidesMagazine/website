@@ -1,0 +1,1 @@
+<option>{{$partnercategory->name}}</option>

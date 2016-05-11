@@ -10,6 +10,10 @@
     <input type="text" class="form-control" name="name" >
     <h2>介紹</h2>
     <textarea class="form-control" name="introduction" ></textarea>
+     <h2>廠商分類</h2>
+    <select name="partnercategory">
+      @each('admin.partner._select_category', $partner_categories, 'partnercategory')
+    </select>
     <h2>logo url</h2>
     <input type="text" class="form-control" name="logourl" >
     <h2>連結</h2>

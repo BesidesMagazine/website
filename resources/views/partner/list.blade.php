@@ -1,4 +1,4 @@
-@extends('layouts.master')
+ @extends('layouts.master')
 
 @section('style')
     <link href="/css/partner.css" rel="stylesheet">
@@ -9,7 +9,14 @@
     <h1>合作夥伴</h1>
     <hr>
 
-    @foreach($partners as $partner)
-        @include('partner._partner_card')
+    @foreach($partner_categories as $partnercategory)
+            @include('partner._all_partners_wall')
     @endforeach
+
+   
+
+   
+
+
+  
 @endsection

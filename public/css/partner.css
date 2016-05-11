@@ -18,7 +18,8 @@
 
 .partner-logo-pic {
 	height:200px;
-	padding: 20px;
+	width:200px;
+	margin: auto;
 	background-size: cover;
 	background-position: center;
 }
