@@ -468,11 +468,12 @@
 				</div>
 
 				<h1 class="forum-s-h-blue">贊助夥伴</h1>
+
 				<div class="forum-partner-block">
-					<img class="forum-partner-pic" src="img/forum/partners/uber.png" />
+					<img class="forum-partner-pic" src="img/forum/partners/mrcomputer.png" />
 					<br />
 					<br />
-					<span class="forum-s-h">Uber</span>
+					<span class="forum-s-h">電腦先生</span>
 				</div>
 
 				<div class="forum-partner-block">
@@ -483,10 +484,24 @@
 				</div>
 
 				<div class="forum-partner-block">
-					<img class="forum-partner-pic" src="img/forum/partners/mrcomputer.png" />
+					<img class="forum-partner-pic" src="img/forum/partners/uber.png" />
 					<br />
 					<br />
-					<span class="forum-s-h">電腦</span>
+					<span class="forum-s-h">Uber</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/Neogence.jpg" />
+					<br />
+					<br />
+					<span class="forum-s-h">霓淨思</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/okogreen.jpg" />
+					<br />
+					<br />
+					<span class="forum-s-h">生態綠</span>
 				</div>
 
 
