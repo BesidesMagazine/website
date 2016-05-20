@@ -467,6 +467,15 @@
 					<span class="forum-s-h">青年事務局</span>
 				</div>
 
+
+				<h1 class="forum-s-h-blue">協辦單位</h1>
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/ncu.jpg" />
+					<br />
+					<br />
+					<span class="forum-s-h">國立中央大學</span>
+				</div>
+
 				<h1 class="forum-s-h-blue">贊助夥伴</h1>
 				<div class="forum-partner-block">
 					<img class="forum-partner-pic" src="img/forum/partners/uber.png" />
@@ -487,6 +496,27 @@
 					<br />
 					<br />
 					<span class="forum-s-h">電腦</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/accupass.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">accupass</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/okogreen.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">okogreen</span>
+				</div>
+
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/lohas.png" />
+					<br />
+					<br />
+					<span class="forum-s-h">lohas</span>
 				</div>
 
 
@@ -592,6 +622,12 @@
 					<br />
 					<br />
 					<span class="forum-s-h">欣傳媒</span>
+				</div>
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/rti.jpg" />
+					<br />
+					<br />
+					<span class="forum-s-h">中央廣播電台</span>
 				</div>
 
 
