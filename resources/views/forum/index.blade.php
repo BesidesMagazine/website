@@ -507,7 +507,7 @@
 				</div>
 
 				<div class="forum-partner-block">
-					<img class="forum-partner-pic" src="img/forum/partners/okogreen.jpg" />
+					<img class="forum-partner-pic" src="img/forum/partners/okogreen.png" />
 					<br />
 					<br />
 					<span class="forum-s-h">生態綠</span>
@@ -517,21 +517,16 @@
 					<img class="forum-partner-pic" src="img/forum/partners/accupass.png" />
 					<br />
 					<br />
-					<span class="forum-s-h">accupass</span>
+					<span class="forum-s-h">活動通</span>
 				</div>
 
-				<div class="forum-partner-block">
-					<img class="forum-partner-pic" src="img/forum/partners/okogreen.png" />
-					<br />
-					<br />
-					<span class="forum-s-h">okogreen</span>
-				</div>
+				
 
 				<div class="forum-partner-block">
 					<img class="forum-partner-pic" src="img/forum/partners/lohas.png" />
 					<br />
 					<br />
-					<span class="forum-s-h">lohas</span>
+					<span class="forum-s-h">教學發展中心</span>
 				</div>
 
 
