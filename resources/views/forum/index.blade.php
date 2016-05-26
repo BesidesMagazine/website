@@ -520,7 +520,7 @@
 					<span class="forum-s-h">活動通</span>
 				</div>
 
-				
+
 
 				<div class="forum-partner-block">
 					<img class="forum-partner-pic" src="img/forum/partners/lohas.png" />
@@ -639,7 +639,12 @@
 					<br />
 					<span class="forum-s-h">中央廣播電台</span>
 				</div>
-
+				<div class="forum-partner-block">
+					<img class="forum-partner-pic" src="img/forum/partners/hinet.jpg" />
+					<br />
+					<br />
+					<span class="forum-s-h">HiNet新聞</span>
+				</div>
 
 			</div>
 		</div>
