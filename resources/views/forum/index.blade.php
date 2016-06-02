@@ -403,28 +403,24 @@
 
 				<table class="forum-ticket-table">
 					<tr>
-						<th class="forum-agenda-th"></th>
-						<th class="forum-agenda-th">學生票</th>
-						<th class="forum-agenda-th">一般票</th>
-						<th class="forum-agenda-th">售票時間</th>
+						<th class="forum-agenda-th">票券種類</th>
+						<th class="forum-agenda-th">票價</th>
+						<th class="forum-agenda-th">售票截止時間</th>
 					<tr/>
 					<tr>
-						<td class="forum-agenda-td">早鳥票</td>
+						<td class="forum-agenda-td">全日票(買二送一優惠)</td>
 						<td class="forum-agenda-td">650 元</td>
-						<td class="forum-agenda-td">900 元</td>
-						<td class="forum-agenda-td">5/7 00:00 ~ 6/4 00:00</td>
+						<td class="forum-agenda-td">5/7 00:00 ~ 6/18 00:00</td>
 					<tr/>
 					<tr>
-						<td class="forum-agenda-td">原價</td>
-						<td class="forum-agenda-td">950 元</td>
-						<td class="forum-agenda-td">1200 元</td>
+						<td class="forum-agenda-td">上午半日票</td>
+						<td class="forum-agenda-td">350 元</td>
 						<td class="forum-agenda-td">5/7 00:00 ~ 6/18 00:00</td>
 					<tr/>
 
 					<tr>
-						<td class="forum-agenda-td">團體票（五人或以上）</td>
-						<td class="forum-agenda-td"></td>
-						<td class="forum-agenda-td">800 元</td>
+						<td class="forum-agenda-td">下午半日票</td>
+						<td class="forum-agenda-td">350 元</td>
 						<td class="forum-agenda-td">5/7 00:00 ~ 6/18 00:00</td>
 					<tr/>
 				</table>
