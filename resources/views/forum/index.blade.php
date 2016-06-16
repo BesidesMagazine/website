@@ -368,7 +368,7 @@
 								</span>
 								<br />
 								<span class="forum-speaker-intro-job">
-									商周媒體集團執行長
+									商周集團執行長
 								</span>
 
 							</div>
@@ -860,11 +860,11 @@
 		<a href="#forum_speakers" class="close">X</a>
 		<a href="#forum_speakers"><img src="img/forum/speaker_10.png" /></a>
 		<h1 class="forum-speaker-intro-name">王文靜</h1>
-		<span class="forum-speaker-intro-job">商周媒體集團執行長</span>
+		<span class="forum-speaker-intro-job">商周集團執行長</span>
 		<br />
 		<span class="forum-speaker-intro-text">
 			<ul>
-				<li>現任商周媒體集團執行長，曾任商業週刊總編輯十年。歷經廣播、電視、雜誌三大媒體經驗，曾參與台灣首家24小時新聞台TVBS-N的創立
+				<li>現任商周集團執行長，曾任商業週刊總編輯十年。歷經廣播、電視、雜誌三大媒體經驗，曾參與台灣首家24小時新聞台TVBS-N的創立
 				</li>
 				<li>她所領導的《商業周刊》是台灣地區發行量第一的雜誌，也是最具影響力的媒體之一
 				</li>
