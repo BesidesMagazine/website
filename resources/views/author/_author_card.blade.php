@@ -10,7 +10,7 @@
         <div class="author-intro">
             <p>{{$author->introduction}}</p>
         </div>
-        <a href="{{ route('author',['id' => $author->name]) }}"><div class="author-link">更多...</div></a>
+        <a href="{{ route('author.show',['id' => $author->name]) }}"><div class="author-link">更多...</div></a>
     </div>
 
     <script>

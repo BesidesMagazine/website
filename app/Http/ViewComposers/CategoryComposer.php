@@ -1,22 +1,21 @@
 <?php
 
-namespace App\Http\ViewComposers;
+namespace app\Http\ViewComposers;
 
 use Illuminate\View\View;
 use App\Category;
 
-class CategoryComposer{
-
+class CategoryComposer
+{
     protected $categories;
-
 
     public function __construct()
     {
-    $this->categories = Category::all();
+        $this->categories = Category::all();
     }
 
-    function compose(View $view){
+    public function compose(View $view)
+    {
         $view->with('categories', $this->categories);
     }
-
 }

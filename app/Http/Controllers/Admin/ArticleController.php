@@ -1,30 +1,28 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace app\Http\Controllers\Admin;
 
-use Illuminate\Http\Request;
-
-use App\Http\Requests;
+use App\Http\Controllers\Controller;
 use App\Http\Requests\ArticleRequest;
 use App\Article;
 use App\Category;
 use App\Author;
-use Validator;
 use Auth;
-use Carbon\Carbon;
 
-class ArticleController extends Controller{
-
-    public function index(){
+class ArticleController extends Controller
+{
+    public function index()
+    {
         return view('admin.article.index', ['articles' => Article::orderBy('category_name')->get(), 'categories' => Category::all()]);
     }
 
-    public function create(){
-        return view('admin.article.create',['categories' => Category::all(), 'authors' => Author::all() ]);
+    public function create()
+    {
+        return view('admin.article.create', ['categories' => Category::all(), 'authors' => Author::all()]);
     }
 
-    public function store(ArticleRequest $request){
-
+    public function store(ArticleRequest $request)
+    {
         $article = new Article();
         $article->title = $request['title'];
         $article->content = $request['content'];
@@ -34,17 +32,17 @@ class ArticleController extends Controller{
         $article->category_name = $request['category'];
         $article->author_name = $request['author'];
         $article->save();
-        return redirect()->route('article.index');
 
+        return redirect()->route('article.index');
     }
 
-    public function edit($id){
+    public function edit($id)
+    {
         return view('admin.article.edit', ['categories' => Category::all(), 'authors' => Author::all(), 'article' => Article::where('id', $id)->first()]);
     }
 
-    public function update(ArticleRequest $request, $id){
-
-        
+    public function update(ArticleRequest $request, $id)
+    {
         $article = Article::where('id', $id)->first();
         $article->title = $request['title'];
         $article->content = $request['content'];
@@ -54,20 +52,14 @@ class ArticleController extends Controller{
         $article->category_name = $request['category'];
         $article->author_name = $request['author'];
         $article->save();
-        return redirect()->route('article.index');
 
+        return redirect()->route('article.index');
     }
 
-    public function destroy($id){
+    public function destroy($id)
+    {
         Article::where('id', $id)->delete();
-        return redirect()->route('article.index');
-    }
 
-    public function articleShow($category, $name){
-        $article = Article::where('title', $name)->first();
-        $article->click += 1;
-        $article->save();
-        $today = Carbon::today();
-        return view('article.show',['categories' => Category::orderBy('created_at')->get(), 'article' => $article, 'hotArticles' => Article::orderBy('click', 'desc')->where('created_at', '>', $today->subWeek())->take(5)->get()]);
+        return redirect()->route('article.index');
     }
 }

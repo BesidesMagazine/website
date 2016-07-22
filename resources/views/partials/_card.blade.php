@@ -1,4 +1,4 @@
-<div class="card" onclick="location.href='{{ route('article',['category' => $article->category_name, 'title' => $article->title])}}' " >
+<div class="card" onclick="location.href='{{ route('article.show',['title' => $article->title])}}' " >
     <p class="card-category-name">{{$article->category_name}}</p>
     <p class="card-title">{{$article->title}}</p>
     <div class="card-picture-container" style="background-image: url('{{$article->previewimg}}');" ></div>

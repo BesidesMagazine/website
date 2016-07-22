@@ -2,65 +2,52 @@
 
 $domain = substr(env('APP_URL'), 7); //hard code
 
+Route::group(['domain' => 'admin.'.$domain], function () {
 
-Route::group(['domain' => 'admin.' . $domain], function(){
+    Route::get('/', ['as' => 'admin', 'uses' => 'Admin\AdminController@index']);
 
-	Route::get('/',['as' => 'admin', 'uses' => 'AdminController@index']);
+    Route::get('login', ['as' => 'login', 'uses' => 'Admin\AdminController@login']);
 
-	Route::get('login', ['as' => 'login', 'uses' => 'AdminController@login']);
+    Route::get('register', ['as' => 'register', 'uses' => 'Admin\AdminController@register']);
 
-	Route::get('register', ['as' => 'register', 'uses' => 'AdminController@register']);
+    Route::post('authenticate', ['as' => 'authenticate', 'uses' => 'Admin\AdminController@authenticate']);
 
-	Route::post('authenticate', ['as' => 'authenticate', 'uses' =>  'AdminController@authenticate']);
+    Route::post('createEditor', ['as' => 'createEditor', 'uses' => 'Admin\AdminController@createEditor']);
 
-	Route::post('createEditor', ['as' => 'createEditor', 'uses' => 'AdminController@createEditor']);
+    Route::get('logout', ['as' => 'logout', 'uses' => 'Admin\AdminController@logout']);
 
-	Route::get('logout', ['as' => 'logout', 'uses' => 'AdminController@logout']);
+    Route::group(['middleware' => 'auth'], function () {
 
-	Route::group(['middleware' => 'auth'], function(){
+        Route::resource('article', 'Admin\ArticleController');
 
-		Route::resource('article', 'ArticleController');
+        Route::resource('category', 'Admin\CategoryController');
 
-		Route::resource('category', 'CategoryController');
+        Route::resource('author', 'Admin\AuthorController');
 
-		Route::resource('author', 'AuthorController');
+        Route::resource('partner', 'Admin\PartnerController');
 
-		Route::resource('partner', 'PartnerController');
+        Route::resource('partnercategory', 'Admin\PartnerCategoryController');
 
-		Route::resource('partnercategory', 'PartnerCategoryController');
-
-	});
+    });
 
 });
 
-Route::group(['domain' => $domain], function(){
+Route::group(['domain' => $domain], function () {
 
-	Route::get('/', 'WelcomeController@index')->name('welcome');
+    Route::resource('/', 'User\WelcomeController', ['only' => ['index']]);
 
-	Route::group(['prefix' => 'authors'],function(){
+    Route::resource('author', 'User\AuthorController', ['only' => ['index', 'show']]);
 
-		Route::get('/', 'AuthorController@listAuthors')->name('authors');
+    Route::resource('connect', 'User\ConnectController', ['only' => ['index']]);
 
-		Route::get('{author}', 'AuthorController@showAuthor')->name('author');
+    Route::get('forum', 'User\ForumController@index')->name('forum');
 
-	});
+    Route::resource('about', 'User\AboutController', ['only' => ['index']]);
 
-	Route::get('connect','ConnectController@index')->name('connect');
+    Route::resource('partner', 'User\PartnerController', ['only' => ['index']]);
 
-	Route::get('forum', 'ForumController@index')->name('forum');
+    Route::resource('category', 'User\CategoryController', ['only' => ['show']]);
 
-	Route::get('about', 'AboutController@index')->name('about');
-
-	Route::get('partners', 'PartnerController@listPartners')->name('partners');
-
-	Route::group(['prefix' => '{category}'], function(){
-
-		Route::get('/','CategoryController@listArticles')->name('category');
-
-		Route::get('{article}', 'ArticleController@articleShow')->name('article');
-
-	});
-
-
+    Route::resource('article', 'User\ArticleController', ['only' => ['show']]);
 
 });
