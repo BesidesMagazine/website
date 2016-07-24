@@ -2,9 +2,7 @@
 
 namespace app\Http\Controllers\Admin;
 
-use App\Editor;
 use App\Http\Requests\AdminAuthenticationRequest;
-use App\Http\Requests\AdminCreateEditorRequest;
 use App\Http\Controllers\Controller;
 use Auth;
 
@@ -39,11 +37,6 @@ class AdminController extends Controller
         return redirect('login');
     }
 
-    public function register()
-    {
-        return view('admin.register');
-    }
-
     public function authenticate(AdminAuthenticationRequest $request)
     {
         if (Auth::attempt(['name' => 'admin', 'password' => $request->password])) {
@@ -51,17 +44,5 @@ class AdminController extends Controller
         } else {
             return $request->password;
         }
-    }
-
-    public function createEditor(AdminCreateEditorRequest $request)
-    {
-        $editor = new Editor();
-        $editor->email = $request->email;
-        $editor->name = $request->name;
-        $editor->password = bcrypt($request->password);
-        $editor->save();
-        Auth::login($editor);
-
-        return redirect()->route('admin');
     }
 }
