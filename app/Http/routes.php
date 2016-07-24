@@ -1,6 +1,6 @@
 <?php
 
-$domainName = explode('://', env('APP_URL'))[1]; //hard code
+$domainName = explode('://', env('APP_URL'))[1];
 
 Route::group(['domain' => 'admin.'.$domainName], function () {
 

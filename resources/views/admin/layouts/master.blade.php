@@ -1,46 +1,30 @@
 <html>
 <head>
     <title>@yield('title')</title>
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
-<body>
+<body style="padding-top:70px;">
     <header>
-    	<nav class="navbar navbar-default">
+    	<nav class="navbar navbar-default navbar-fixed-top">
   			<div class="container-fluid">
 	    		<div class="navbar-header">
-	      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        		<span class="sr-only">Toggle navigation</span>
-	        		<span class="icon-bar"></span>
-	        		<span class="icon-bar"></span>
-	        		<span class="icon-bar"></span>
-	      			</button>
-	      			<a class="navbar-brand" href="{{ route('admin') }}">Besides</a>
+	      			<a href="{{ route('admin') }}">
+                        <img style="height:50px;padding:5px;margin-right:10px;" style="height:auto;" src="/img/translogo.png">
+                    </a>
 	    		</div>
 
-	    	@if ( Auth::check() )
-	        	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	        		<ul class="nav navbar-nav">
-	                <li><a href="{{ route('article.index') }}">文章</a></li>
-	                <li><a href="{{ route('category.index') }}">文章分類</a></li>
-                    <li><a href="{{ route('author.index') }}">作者</a></li>
-                    <li><a href="{{ route('partner.index') }}">夥伴</a></li>
-                    <li><a href="{{ route('partnercategory.index') }}">夥伴分類</a></li>
-	            	</ul>
-	            	<ul class="nav navbar-nav navbar-right">
-	                	<li><a>你好, {{ Auth::user()->name }}</a></li>
-	                	<li><a href="{{ route('logout') }}">登出</a></li>
-	            	</ul>
-                    <ul class="nav navbar-nav navbar-right">
-	                <li><a href="{{ route('register') }}">Register</a></li>
-	            	</ul>
-	        	</div>
-
-
-	    	@endif
+        		<ul class="nav navbar-nav">
+                <li><a href="{{ route('article.index') }}">文章</a></li>
+                <li><a href="{{ route('category.index') }}">文章分類</a></li>
+                <li><a href="{{ route('author.index') }}">作者</a></li>
+                <li><a href="{{ route('partner.index') }}">夥伴</a></li>
+                <li><a href="{{ route('partnercategory.index') }}">夥伴分類</a></li>
+            	</ul>
+            	<ul class="nav navbar-nav navbar-right" style="margin-right:5px;">
+                	<a class="btn btn-default navbar-btn" href="{{ route('logout') }}">登出</a>
+            	</ul>
   			</div>
 		</nav>
 	</header>
