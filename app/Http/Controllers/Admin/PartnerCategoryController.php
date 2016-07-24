@@ -17,13 +17,13 @@ class PartnerCategoryController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'partnercategoryname' => 'required|unique:partner_categories,name',
+            'partner_category_name' => 'required|unique:partner_categories,name',
         ]);
         if ($validator->fails()) {
             return  redirect()->route('partnercategory.index')->withErrors($validator);
         } else {
             $partnercategory = new PartnerCategory();
-            $partnercategory->name = $request['partnercategoryname'];
+            $partnercategory->name = $request['partner_category_name'];
             $partnercategory->save();
 
             return redirect()->route('partnercategory.index');
@@ -38,13 +38,13 @@ class PartnerCategoryController extends Controller
     public function update(Request $request, $id)
     {
         $validator = Validator::make($request->all(), [
-            'partnercategoryname' => 'required|unique:partner_categories,name',
+            'partner_category_name' => 'required|unique:partner_categories,name',
         ]);
         if ($validator->fails()) {
             return  back()->withErrors($validator);
         } else {
             $partnercategory = PartnerCategory::where('id', $id)->first();
-            $partnercategory->name = $request['partnercategoryname'];
+            $partnercategory->name = $request['partner_category_name'];
             $partnercategory->save();
 
             return redirect()->route('partnercategory.index');

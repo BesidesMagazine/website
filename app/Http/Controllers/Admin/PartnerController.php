@@ -26,7 +26,7 @@ class PartnerController extends Controller
         'name' => 'required|unique:partners,name',
         'introduction' => 'required',
          'partnercategory' => 'required',
-        'logourl' => 'required',
+        'logo_url' => 'required',
         'connect' => 'required',
         ]);
 
@@ -36,8 +36,8 @@ class PartnerController extends Controller
             $partner = new Partner();
             $partner->name = $request['name'];
             $partner->introduction = $request['introduction'];
-            $partner->partnercategoryname = $request['partnercategory'];
-            $partner->logourl = $request['logourl'];
+            $partner->partner_category_name = $request['partnercategory'];
+            $partner->logo_url = $request['logo_url'];
             $partner->connect = $request['connect'];
             $partner->save();
 
@@ -56,7 +56,7 @@ class PartnerController extends Controller
         'name' => 'required',
         'introduction' => 'required',
          'partnercategory' => 'required',
-        'logourl' => 'required',
+        'logo_url' => 'required',
         'connect' => 'required',
         ]);
 
@@ -66,8 +66,8 @@ class PartnerController extends Controller
             $partner = Partner::where('id', $id)->first();
             $partner->name = $request['name'];
             $partner->introduction = $request['introduction'];
-            $partner->partnercategoryname = $request['partnercategory'];
-            $partner->logourl = $request['logourl'];
+            $partner->partner_category_name = $request['partnercategory'];
+            $partner->logo_url = $request['logo_url'];
             $partner->connect = $request['connect'];
             $partner->save();
 

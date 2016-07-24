@@ -26,8 +26,8 @@ class ArticleController extends Controller
         $article = new Article();
         $article->title = $request['title'];
         $article->content = $request['content'];
-        $article->preview = $request['preview'];
-        $article->previewimg = $request['previewimg'];
+        $article->preview_content = $request['preview_content'];
+        $article->preview_image = $request['preview_image'];
         $article->editor()->associate(Auth::user());
         $article->category_name = $request['category'];
         $article->author_name = $request['author'];
@@ -46,8 +46,8 @@ class ArticleController extends Controller
         $article = Article::where('id', $id)->first();
         $article->title = $request['title'];
         $article->content = $request['content'];
-        $article->preview = $request['preview'];
-        $article->previewimg = $request['previewimg'];
+        $article->preview_content = $request['preview_content'];
+        $article->preview_image = $request['preview_image'];
         $article->editor()->associate(Auth::user());
         $article->category_name = $request['category'];
         $article->author_name = $request['author'];

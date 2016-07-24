@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Author extends Model
 {
     protected $fillable = [
-        'name', 'introduction', 'imgurl',
+        'name', 'introduction', 'image_url',
     ];
 
     /*

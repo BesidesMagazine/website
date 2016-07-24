@@ -18,7 +18,7 @@
     <h2>預覽</h2>
     <input type="text" class="form-control" name="preview" >
     <h2>預覽圖</h2>
-    <input type="text" class="form-control" name="previewimg" >
+    <input type="text" class="form-control" name="preview_image" >
     <hr>
     <textarea class="ckeditor" name="content" id="editor" ></textarea>
     <hr>

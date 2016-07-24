@@ -6,10 +6,6 @@
             <h3>Login</h3>
             <form action="{{ route('authenticate') }}" method="post">
                 <div class="form-group">
-                    <label for="email">Your E-mail</label>
-                    <input class="form-control" type="text" name="email" id="email" value="">
-                </div>
-                <div class="form-group">
                     <label for="password">Your Password</label>
                     <input class="form-control" type="password" name="password" id="password" value="">
                 </div>

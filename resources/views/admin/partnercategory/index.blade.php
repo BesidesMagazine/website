@@ -5,7 +5,7 @@
     <table class="table table-hover">
       <tr>
         <form action="{{route('partnercategory.store')}}" method="post">
-        <td><input class="form-control" type="text" name="partnercategoryname"></td>
+        <td><input class="form-control" type="text" name="partner_category_name"></td>
         <td></td>
         <td><input type="submit" class="btn btn-success" value="新增" ></td>
         <input type="hidden" name="_token" value="{{ csrf_token() }}">

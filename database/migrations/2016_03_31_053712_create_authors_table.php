@@ -7,8 +7,6 @@ class CreateAuthorsTable extends Migration
 {
     /**
      * Run the migrations.
-     *
-     * @return void
      */
     public function up()
     {
@@ -16,15 +14,13 @@ class CreateAuthorsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('introduction');
-            $table->string('imgurl');
+            $table->string('image_url');
             $table->timestamps();
         });
     }
 
     /**
      * Reverse the migrations.
-     *
-     * @return void
      */
     public function down()
     {

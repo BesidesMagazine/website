@@ -38,7 +38,7 @@
 	                <li><a href="{{ route('register') }}">Register</a></li>
 	            	</ul>
 	        	</div>
-                
+
 
 	    	@endif
   			</div>

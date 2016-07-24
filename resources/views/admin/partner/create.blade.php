@@ -15,7 +15,7 @@
       @each('admin.partner._select_category', $partner_categories, 'partnercategory')
     </select>
     <h2>logo url</h2>
-    <input type="text" class="form-control" name="logourl" >
+    <input type="text" class="form-control" name="logo_url" >
     <h2>連結</h2>
     <input type="text" class="form-control" name="connect" >
     <hr>

@@ -8,7 +8,7 @@
     <h2>作者姓名</h2>
     <input type="text" class="form-control" name="name" value="{{$author->name}}">
     <h2>作者照片</h2>
-    <input type="text" class="form-control" name="imgurl" value="{{$author->imgurl}}">
+    <input type="text" class="form-control" name="image_url" value="{{$author->image_url}}">
     <hr>
     <h2>作者介紹</h2>
     <textarea class="form-control" name="introduction"  id="editor"  >{{$author->introduction}}</textarea>

@@ -20,7 +20,7 @@
 
 
         <h2>logo url</h2>
-        <input type="text" class="form-control" name="logourl" value="{{$partner->logourl}}" ></input>
+        <input type="text" class="form-control" name="logo_url" value="{{$partner->logo_url}}" ></input>
         <h2>連結</h2>
         <input type="text" class="form-control" name="connect" value="{{$partner->connect}}" ></input>
         <hr>

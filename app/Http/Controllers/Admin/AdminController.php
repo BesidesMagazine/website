@@ -46,10 +46,10 @@ class AdminController extends Controller
 
     public function authenticate(AdminAuthenticationRequest $request)
     {
-        if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
+        if (Auth::attempt(['name' => 'admin', 'password' => $request->password])) {
             return redirect()->intended('article');
         } else {
-            return redirect()->back();
+            return $request->password;
         }
     }
 

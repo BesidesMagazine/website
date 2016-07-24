@@ -1,7 +1,7 @@
 <div class="card-author">
 
     <div class="front">
-        <div style="background-image: url('{{$author->imgurl}}');">
+        <div style="background-image: url('{{$author->image_url}}');">
         </div>
         <span>{{$author->name}}</span>
     </div>

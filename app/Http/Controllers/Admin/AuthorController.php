@@ -24,7 +24,7 @@ class AuthorController extends Controller
     {
         $validator = Validator::make($request->all(), [
           'name' => 'required',
-          'imgurl' => 'required',
+          'image_url' => 'required',
           'introduction' => 'required',
       ]);
         if ($validator->fails()) {
@@ -33,7 +33,7 @@ class AuthorController extends Controller
             $author = new Author();
             $author->name = $request['name'];
             $author->introduction = $request['introduction'];
-            $author->imgurl = $request['imgurl'];
+            $author->image_url = $request['image_url'];
             $author->save();
 
             return redirect()->route('author.index');
@@ -54,7 +54,7 @@ class AuthorController extends Controller
     {
         $validator = Validator::make($request->all(), [
           'name' => 'required',
-          'imgurl' => 'required',
+          'image_url' => 'required',
           'introduction' => 'required',
       ]);
         if ($validator->fails()) {
@@ -63,7 +63,7 @@ class AuthorController extends Controller
             $author = Author::where('id', $id)->first();
             $author->name = $request['name'];
             $author->introduction = $request['introduction'];
-            $author->imgurl = $request['imgurl'];
+            $author->image_url = $request['image_url'];
             $author->save();
 
             return redirect()->route('author.index');

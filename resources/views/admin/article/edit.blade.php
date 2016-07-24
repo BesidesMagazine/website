@@ -28,9 +28,9 @@
     <h2>標題</h2>
     <input type="text" class="form-control" name="title" value="{{$article->title}}" >
     <h2>預覽</h2>
-    <input type="text" class="form-control" name="preview" value="{{$article->preview}}">
+    <input type="text" class="form-control" name="preview_content" value="{{$article->preview_content}}">
     <h2>預覽圖</h2>
-    <input type="text" class="form-control" name="previewimg" value="{{$article->previewimg}}" >
+    <input type="text" class="form-control" name="preview_image" value="{{$article->preview_image}}" >
     <hr>
 
     <textarea class="ckeditor" name="content" id="editor" >{{$article->content}}</textarea>

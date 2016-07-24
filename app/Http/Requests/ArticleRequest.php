@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Requests;
+namespace app\Http\Requests;
 
 use App\Http\Requests\Request;
 
@@ -27,8 +27,8 @@ class ArticleRequest extends Request
             'title' => 'required',
             'category' => 'required',
             'content' => 'required',
-            'preview' => 'required',
-            'previewimg' => 'required',
+            'preview_content' => 'required',
+            'preview_image' => 'required',
             'author' => 'required',
         ];
     }

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Partner extends Model
 {
     protected $fillable = [
-        'name', 'introduction', 'logourl', 'connect',
+        'name', 'introduction', 'logo_url', 'connect',
     ];
 
     

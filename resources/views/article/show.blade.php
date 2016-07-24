@@ -10,8 +10,8 @@
     <meta property="og:url"           content="{{ env('APP_URL') .'/'. $article->category_name . '/' . $article->title}}" />
 	<meta property="og:type"          content="website" />
 	<meta property="og:title"         content="{{$article->title}}|《除了》雜誌" />
-	<meta property="og:description"   content="{{$article->preview}}" />
-	<meta property="og:image"         content="{{$article->previewimg}}" />
+	<meta property="og:description"   content="{{$article->preview_content}}" />
+	<meta property="og:image"         content="{{$article->preview_image}}" />
 @endsection
 
 @section('content')
