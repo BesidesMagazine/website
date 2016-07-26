@@ -3,8 +3,8 @@
 namespace app\Http\Controllers\User;
 
 use App\Http\Controllers\Controller;
-use App\Author;
-use App\Article;
+use App\Models\Author;
+use App\Models\Article;
 
 class AuthorController extends Controller
 {

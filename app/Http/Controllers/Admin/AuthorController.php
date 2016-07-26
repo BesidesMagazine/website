@@ -5,8 +5,8 @@ namespace app\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Validator;
-use App\Author;
-use App\Article;
+use App\Models\Author;
+use App\Models\Article;
 
 class AuthorController extends Controller
 {

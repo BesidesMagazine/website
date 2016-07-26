@@ -4,9 +4,9 @@ namespace app\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Category;
+use App\Models\Category;
 use Validator;
-use App\Article;
+use App\Models\Article;
 use Carbon\Carbon;
 
 class CategoryController extends Controller

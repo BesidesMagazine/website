@@ -3,7 +3,7 @@
 namespace app\Http\ViewComposers;
 
 use Illuminate\View\View;
-use App\Category;
+use App\Models\Category;
 
 class CategoryComposer
 {

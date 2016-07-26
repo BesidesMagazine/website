@@ -3,7 +3,7 @@
 namespace app\Http\Controllers\User;
 
 use App\Http\Controllers\Controller;
-use App\Article;
+use App\Models\Article;
 use Carbon\Carbon;
 
 class WelcomeController extends Controller

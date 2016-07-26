@@ -4,7 +4,7 @@ namespace app\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\PartnerCategory;
+use App\Models\PartnerCategory;
 use Validator;
 
 class PartnerCategoryController extends Controller

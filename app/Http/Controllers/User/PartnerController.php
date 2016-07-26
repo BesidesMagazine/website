@@ -3,8 +3,8 @@
 namespace app\Http\Controllers\User;
 
 use App\Http\Controllers\Controller;
-use App\Partner;
-use App\PartnerCategory;
+use App\Models\Partner;
+use App\Models\PartnerCategory;
 
 class PartnerController extends Controller
 {

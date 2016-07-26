@@ -6,8 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\ArticleRequest;
 use App\Http\Requests\GetArticlesRequest;
 use App\Repositories\ArticleRepository;
-use App\Article;
-use App\Author;
+use App\Models\Article;
+use App\Models\Author;
 
 class ArticleController extends Controller
 {

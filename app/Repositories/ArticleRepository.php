@@ -2,7 +2,7 @@
 
 namespace app\Repositories;
 
-use App\Article;
+use App\Models\Article;
 
 class ArticleRepository
 {
