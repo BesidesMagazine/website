@@ -14,6 +14,8 @@ Route::group(['domain' => 'admin.'.$domainName], function () {
 
     Route::group(['middleware' => 'auth'], function () {
 
+        Route::get('getArticles', 'Admin\ArticleController@getArticles');
+
         Route::resource('article', 'Admin\ArticleController');
 
         Route::resource('category', 'Admin\CategoryController');
