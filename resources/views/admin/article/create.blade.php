@@ -16,7 +16,7 @@
     <h2>標題</h2>
     <input type="text" class="form-control" name="title" >
     <h2>預覽</h2>
-    <input type="text" class="form-control" name="preview" >
+    <input type="text" class="form-control" name="preview_content" >
     <h2>預覽圖</h2>
     <input type="text" class="form-control" name="preview_image" >
     <hr>

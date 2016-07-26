@@ -7,30 +7,23 @@ use App\Http\Requests\ArticleRequest;
 use App\Article;
 use App\Category;
 use App\Author;
-use Auth;
 
 class ArticleController extends Controller
 {
     public function index()
     {
-        return view('admin.article.index', ['articles' => Article::orderBy('category_name')->get(), 'categories' => Category::all()]);
+        return view('admin.article.index', ['articles' => Article::orderBy('category_name')->get()]);
     }
 
     public function create()
     {
-        return view('admin.article.create', ['categories' => Category::all(), 'authors' => Author::all()]);
+        return view('admin.article.create', ['authors' => Author::all()]);
     }
 
     public function store(ArticleRequest $request)
     {
         $article = new Article();
-        $article->title = $request['title'];
-        $article->content = $request['content'];
-        $article->preview_content = $request['preview_content'];
-        $article->preview_image = $request['preview_image'];
-        $article->editor()->associate(Auth::user());
-        $article->category_name = $request['category'];
-        $article->author_name = $request['author'];
+        $this->assignArticleRequestToModel($request, $article);
         $article->save();
 
         return redirect()->route('article.index');
@@ -38,19 +31,13 @@ class ArticleController extends Controller
 
     public function edit($id)
     {
-        return view('admin.article.edit', ['categories' => Category::all(), 'authors' => Author::all(), 'article' => Article::where('id', $id)->first()]);
+        return view('admin.article.edit', ['authors' => Author::all(), 'article' => Article::where('id', $id)->first()]);
     }
 
     public function update(ArticleRequest $request, $id)
     {
         $article = Article::where('id', $id)->first();
-        $article->title = $request['title'];
-        $article->content = $request['content'];
-        $article->preview_content = $request['preview_content'];
-        $article->preview_image = $request['preview_image'];
-        $article->editor()->associate(Auth::user());
-        $article->category_name = $request['category'];
-        $article->author_name = $request['author'];
+        $this->assignArticleRequestToModel($request, $article);
         $article->save();
 
         return redirect()->route('article.index');
@@ -61,5 +48,15 @@ class ArticleController extends Controller
         Article::where('id', $id)->delete();
 
         return redirect()->route('article.index');
+    }
+
+    private function assignArticleRequestToModel($request, $model)
+    {
+        $model->title = $request['title'];
+        $model->content = $request['content'];
+        $model->preview_content = $request['preview_content'];
+        $model->preview_image = $request['preview_image'];
+        $model->category_name = $request['category'];
+        $model->author_name = $request['author'];
     }
 }

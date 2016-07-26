@@ -15,7 +15,7 @@
                                 <input class="form-control" type="password" name="password" id="password" value="">
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-default">submit</button>
+                                <button type="submit" class="btn btn-default">登入</button>
                             </div>
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         </form>
