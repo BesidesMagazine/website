@@ -56,6 +56,6 @@ class ArticleController extends Controller
 
     public function getArticles(GetArticlesRequest $request)
     {
-        return $this->articles->getArticles($request->input('take'), $request->input('category'));
+        return $this->articles->getArticles($request->input('take'), $request->input('category'))->toArray();
     }
 }

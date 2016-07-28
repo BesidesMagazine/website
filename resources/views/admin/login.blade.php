@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    @include('admin.layouts.head')
+    @include('admin.layouts._head')
     <body>
         <div class="container" style="margin-top:100px;">
             <div class="col-md-6 col-md-offset-3">
