@@ -6,11 +6,11 @@
   <hr>
   <form id="form"  action="{{route('article.store')}}" method="post" >
     <h2>分類</h2>
-    <select name="category">
+    <select class="form-control" name="category">
       @each('admin.article._select_category', $categories, 'category')
     </select>
     <h2>作者</h2>
-    <select form="form" name="author">
+    <select class="form-control" form="form" name="author">
       @each('admin.article._select_author', $authors, 'author')
     </select>
     <h2>標題</h2>

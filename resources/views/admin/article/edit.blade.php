@@ -33,7 +33,7 @@
   <hr>
   <form id="form" action="{{ route('article.update', ['id' => $article->id]) }}" method="post" >
     <h2>分類</h2>
-    <select form="form" name="category">
+    <select class="form-control" form="form" name="category">
       @foreach ($categories as $category)
         @if ($category->name == $article->category_name)
           <option selected="selected">{{$category->name}}</option>
@@ -42,7 +42,7 @@
       @endforeach
     </select>
     <h2>作者</h2>
-    <select form="form" name="author">
+    <select class="form-control" form="form" name="author">
       @foreach ($authors as $author)
         @if ($author->name == $article->author_name)
           <option selected="selected">{{$author->name}}</option>
