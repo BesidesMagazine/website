@@ -3,7 +3,7 @@ $(function() {
   $('#category-selector a').click(handleCategoryClick);
   $('#category-selector a:first').click();
   function handleCategoryClick() {
-    $.get(articlesAjaxString(4, $(this).text()), function(data, status) {
+    $.get(articlesAjaxString(100, $(this).text()), function(data, status) {
       if (status == "error")
         alert("伺服器錯誤");
       else {
