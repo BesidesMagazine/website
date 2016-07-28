@@ -3,13 +3,13 @@
 @section('content')
   <script src="/ckeditor/ckeditor.js"></script>
   <div class="row" style="font-size:36px">
-      <div class="col-md-9">
+      <div class="col-md-10">
           <p >
               {{$article->title}}
           </p>
       </div>
-      <div class="col-md-3">
-          <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bs-example-modal-sm">刪除文章</button>
+      <div class="col-md-1">
+          <button type="button" class="btn btn-lg btn-danger" data-toggle="modal" data-target=".bs-example-modal-sm">刪除文章</button>
       </div>
   </div>
   <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
