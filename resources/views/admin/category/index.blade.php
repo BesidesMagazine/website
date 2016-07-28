@@ -9,7 +9,7 @@
                     <input class="form-control" type="text" name="categoryname">
                 </div>
                 <div class="col-md-1">
-                    <input type="submit" class="btn btn-lg btn-success" value="新增" >
+                    <input type="submit" class="btn btn-lg btn-default" value="新增" >
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 </div>
             </div>

@@ -1,28 +1,34 @@
 @extends('admin.layouts.master')
 
 @section('content')
-    <div class="row">
-      <div class="col-md-2 col-md-offset-6">
-        <a class="btn btn-success"  href="{{ route('author.create') }}"   >新增作者</a>
-      </div>
-    </div>
-    <dir class="row">
-      <table class="table table-hover">
 
-      @foreach ($authors as $author)
-        <tr>
-          <td>{{ $author->name }}</td>
-          <td></td>
-          <td>
-            <form action="{{ route('author.destroy', ['id' => $author->id]) }}" method="post">
-              <a href="{{route('author.edit', ['id' => $author->id])}}" class="btn btn-default" >編輯</a>
-              <input type="submit" value="刪除" class="btn btn-danger" >
-              <input type="hidden" name="_method" value="delete" />
-              <input type="hidden" name="_token" value="{{ csrf_token() }}">
-            </form>
-          </td>
-        </tr>
-      @endforeach
-      </table>
+    <div class="row">
+        <div class="col-md-offset-11 col-md-1">
+            <a class="btn btn-lg btn-default"  href="{{ route('author.create') }}">新增作者</a>
+        </div>
+    </div>
+
+    <dir class="row">
+        <div class="col-md-offset-3 col-md-6">
+
+
+        @foreach ($authors as $author)
+        <a style="text-decoration:none;color:black" href="{{route('author.edit', ['id' => $author->id])}}" >
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="col-md-5">
+                        <div style="border-radius:50%;background-size: cover;background-position: center;background-image:url({{$author->image_url}});height:150px;width:150px;">
+
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <h1>{{$author->name}}</h1>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        @endforeach
+        </div>
     </dir>
 @endsection
