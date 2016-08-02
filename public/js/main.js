@@ -73,5 +73,3 @@ $(function() {
 
   console.log('haha');
 });
-
-//# sourceMappingURL=main.js.map

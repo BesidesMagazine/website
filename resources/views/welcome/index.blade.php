@@ -8,16 +8,9 @@
 	<meta property="og:image"         content="/img/metapic.jpg" />
 @endsection
 
-@section('style')
-    <link rel="stylesheet" type="text/css" href="/css/slide.css">
-    <link rel="stylesheet" type="text/css" href="/css/all-cards-wall.css">
-@endsection
-
 @section('content')
-    <div class="slideshow-and-side-bar-container">
-        @include('welcome._slide')
-        @include('welcome._side_bar')
-    </div>
+    @include('welcome._slide')
+    <i class="fa fa-cloud"></i>
     <div class="all-cards-wall">
         @include('welcome._new_articles')
         @foreach($categories as $category)
