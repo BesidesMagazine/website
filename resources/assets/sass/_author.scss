@@ -1,0 +1,48 @@
+.card {
+    font-size: $font-normal-size;
+    font-family: $main-font-family;
+    display: inline-block;
+}
+
+.card-author {
+    width: 260px;
+    height: 260px;
+    cursor: pointer;
+}
+
+.back {
+    text-shadow: 1px 2px 2px $theme-gray;
+}
+
+.front {
+    overflow: hidden;
+    text-align: center;
+    width: 260px;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px $theme-gray;
+}
+
+.author-intro {
+    max-height: 220px;
+    overflow: hidden;
+    font-size: $font-normal-size;
+    letter-spacing: 2px;
+}
+
+.author-link {
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    font-size: $font-big-size;
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    text-shadow: 1px 2px 2px $theme-gray;
+
+    &:hover {
+        color: $theme-red;
+    }
+}

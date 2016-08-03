@@ -319,3 +319,44 @@
 .fb-comments {
   margin-top: 20px;
   padding: 0; }
+
+.card {
+  font-size: 16px;
+  font-family: ming-font, slabo;
+  display: inline-block; }
+
+.card-author {
+  width: 260px;
+  height: 260px;
+  cursor: pointer; }
+
+.back {
+  text-shadow: 1px 2px 2px #778899; }
+
+.front {
+  overflow: hidden;
+  text-align: center;
+  width: 260px;
+  height: 260px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px #778899; }
+
+.author-intro {
+  max-height: 220px;
+  overflow: hidden;
+  font-size: 16px;
+  letter-spacing: 2px; }
+
+.author-link {
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+  font-size: 34px;
+  color: black;
+  text-decoration: none;
+  padding-right: 20px;
+  text-shadow: 1px 2px 2px #778899; }
+  .author-link:hover {
+    color: #B11533; }

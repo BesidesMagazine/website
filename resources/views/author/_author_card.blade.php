@@ -1,19 +1,19 @@
-<div class="card-author">
+<div class="card">
+    <div class="card-author">
 
-    <div class="front">
-        <div style="background-image: url('{{$author->image_url}}');">
+        <div class="front" style="background-image: url('{{$author->image_url}}');">
+
         </div>
-        <span>{{$author->name}}</span>
-    </div>
 
-    <div class="back">
-        <div class="author-intro">
-            <p>{{$author->introduction}}</p>
+        <div class="back">
+            <div class="author-intro">
+                <p>{{$author->introduction}}</p>
+            </div>
+
         </div>
-        <a href="{{ route('author.show',['id' => $author->name]) }}"><div class="author-link">更多...</div></a>
     </div>
+    <a class="author-link" href="{{ route('author.show',['id' => $author->name]) }}">
+        {{$author->name}}
+    </a>
 
-    <script>
-        $(".card-author").flip({trigger: 'click'});
-    </script>
 </div>
