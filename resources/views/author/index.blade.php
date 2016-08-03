@@ -11,7 +11,7 @@
 
 @section('content')
     <div class="content-container">
-        <span class="article-title">作者列表</span>
+        <span class="author-title">作者列表</span>
         <hr class="separator">
         @foreach($authors as $author)
             @include('author._author_card')

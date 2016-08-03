@@ -1,0 +1,46 @@
+.partner-title {
+    display: block;
+    padding-top: 50px;
+    font-size: $font-big-size;
+}
+
+.partner {
+    font-family: $main-font-family;
+    text-shadow: 2px 2px 2px $theme-gray;
+}
+
+.partner-card {
+    font-family: $main-font-family;
+    letter-spacing: 3px;
+    width: 300px;
+    margin: 5px;
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.partner-name {
+    font-size: 1.5em;
+    height: 40px;
+    overflow-x: auto;
+    word-break: break-all;
+    overflow-y: auto;
+}
+
+.partner-logo-pic {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.partner-text {
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    line-height: 1.5em;
+    word-wrap: break-word;
+    text-align: left;
+}

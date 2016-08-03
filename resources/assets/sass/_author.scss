@@ -25,6 +25,14 @@
     box-shadow: 4px 4px 4px $theme-gray;
 }
 
+.author-title {
+    font-size: $font-big-size;
+    font-family: $main-font-family;
+    text-shadow: 3px 3px 3px $theme-gray;
+    display: block;
+    padding-top: 50px;
+}
+
 .author-intro {
     max-height: 220px;
     overflow: hidden;
