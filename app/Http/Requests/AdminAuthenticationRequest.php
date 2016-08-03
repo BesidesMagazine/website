@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Requests;
+namespace app\Http\Requests;
 
 use App\Http\Requests\Request;
 
@@ -24,8 +24,7 @@ class AdminAuthenticationRequest extends Request
     public function rules()
     {
         return [
-            'email' => 'required',
-            'password'=>'required'
+            'password' => 'required',
         ];
     }
 }

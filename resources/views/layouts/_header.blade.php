@@ -1,16 +1,25 @@
-<div class="header">
-    <div class="nav">
-        <a href="{{env('APP_URL')}}"><img class = "logo-pic" src="/img/logo.png" /></a>
+<header class="header">
+    <nav class="nav">
+        <a style="text-decoration:none;" href="{{env('APP_URL')}}">
+            <img class = "logo-pic" src="/img/logo.png" />
+        </a>
         <div class = "category-bar">
-            <div class="category-item">
-            <a href = "{{route("forum")}}">2016異想論壇</a>
-            </div>
             @foreach ($categories as $category)
                 <div class="category-item">
-                    <a href = "{{ route('category', ['category' => $category->name])}} ">{{$category->name}}</a>
+                    <a href = "{{ route('category.show', ['category' => $category->name])}} ">{{$category->name}}</a>
                 </div>
             @endforeach
 
         </div>
+        <div class="social-media-bar">
+
+            <a href="https://www.instagram.com/besides_magazine/">
+                <i class="fa fa-instagram"  aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com/besidesmagazine/">
+                <i class="fa fa-facebook-square"  aria-hidden="true"></i>
+            </a>
+
+        </div>
     </div>
-</div>
+</header>

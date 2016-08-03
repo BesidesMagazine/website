@@ -2,34 +2,22 @@
 
 @section('content')
     <div class="row">
-      <div class="col-md-2 col-md-offset-6">
-        <a class="btn btn-success"  href="{{ route('article.create') }}"   >新增文章</a>
-      </div>
+        <div class="col-md-10">
+            <ol id="category-selector" class="breadcrumb">
+                <li ><a style="font-size:1.3em;cursor:pointer" >最近</a></li>
+                @foreach($categories as $category)
+                    @include('admin.article._category_breadcrumbs')
+                @endforeach
+            </ol>
+        </div>
+        <div class="col-md-2">
+            <a style="font-size:1.3em;" class="btn btn-default" href="/article/create"> 新增文章 </a>
+        </div>
     </div>
 
-    <dir class="row">
-      <table class="table table-hover">
 
-        @foreach ($articles as $article)
+        <div id="article-list"></div>
 
-          <tr>
-            <td>{{ $article->title }}</td>
-            <td>{{ $article->category_name }}</td>
-            <td>
 
-              <form action="{{ route('article.destroy', ['id' => $article->id]) }}" method="post">
-                <a href="{{route('article.edit', ['id' => $article->id])}}" class="btn btn-default" >編輯</a>
-                <input type="submit" value="刪除" class="btn btn-danger" >
-                <input type="hidden" name="_method" value="delete" />
-                <input type="hidden" name="_token" value="{{ csrf_token() }}">
-              </form>
-
-            </td>
-          </tr>
-
-        @endforeach
-
-      </table>
-    </dir>
 
 @endsection

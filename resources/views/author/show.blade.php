@@ -3,7 +3,7 @@
 @section('content')
 	<div style="height:50px;"></div>
 	<dir style="text-align:left;">
-		<div class="author-title" style="background-image: url('{{$author->imgurl}}');height:320px;width:320px;
+		<div class="author-title" style="background-image: url('{{$author->image_url}}');height:320px;width:320px;
 	    background-position: center;
 	    background-size: cover;display: inline-block;">
 		</div>

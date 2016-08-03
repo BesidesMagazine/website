@@ -3,34 +3,33 @@
 @section('content')
 
     <div class="row">
-      <div class="col-md-2 col-md-offset-6">
-        <a class="btn btn-success"  href="{{ route('partner.create') }}"   >新增夥伴</a>
-        <p></p>
-      </div>
+        <div class="col-md-offset-11 col-md-1">
+            <a class="btn btn-lg btn-default"  href="{{ route('partner.create') }}"   >新增夥伴</a>
+        </div>
     </div>
 
-    <table class="table table-hover">
+    <dir class="row">
+        <div class="col-md-offset-3 col-md-6">
 
-     <tr>
-      @foreach ($partners as $partner)
-          <tr>
-            <td>{{ $partner->name }}</td>
-            <td></td>
-            <td>
+        @foreach ($partners as $partner)
+        <a style="text-decoration:none;color:black" href="{{route('partner.edit', ['id' => $partner->id])}}" >
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="col-md-5">
+                        <div style="background-size: cover;background-position: center;background-image:url({{$partner->image_url}});height:150px;width:150px;">
 
-              <form action="{{ route('partner.destroy', ['id' => $partner->id]) }}" method="post">
-                <a href="{{route('partner.edit', ['id' => $partner->id])}}" class="btn btn-default" >編輯</a>
-                <input type="submit" value="刪除" class="btn btn-danger" >
-                <input type="hidden" name="_method" value="delete" />
-                <input type="hidden" name="_token" value="{{ csrf_token() }}">
-              </form>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <h1>{{$partner->name}}</h1>
+                    </div>
 
-            </td>
-          </tr>
-      @endforeach
-    </tr>
-
-    </table>
+                </div>
+            </div>
+        </a>
+        @endforeach
+        </div>
+    </dir>
 
 
 @endsection

@@ -7,26 +7,22 @@ class CreateArticlesTable extends Migration
 {
     /**
      * Run the migrations.
-     *
-     * @return void
      */
     public function up()
     {
         Schema::create('articles', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('editor_id');
-            $table->string('title'); 
+            $table->string('title');
             $table->text('content');
-            $table->string('preview');
-            $table->string('previewimg');
+            $table->string('preview_content');
+            $table->string('preview_image');
             $table->timestamps();
         });
     }
 
     /**
      * Reverse the migrations.
-     *
-     * @return void
      */
     public function down()
     {
