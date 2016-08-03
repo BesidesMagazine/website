@@ -1,6 +1,6 @@
 .slide-container {
     font-family: $main-font-family;
-    min-width: 1024px;
+    min-width: $main-content-width;
     width: 100%;
     height: 500px;
     background-position: center;

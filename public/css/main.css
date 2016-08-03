@@ -3,6 +3,10 @@
 .display-none {
   display: none; }
 
+.content-container {
+  width: 1024px;
+  margin: 0 auto; }
+
 @font-face {
   font-family: dinpro-b;
   src: url("/font/DINPro-Bold.ttf"); }
@@ -262,27 +266,21 @@
     .footer .footer-element:hover {
       color: #B11533; }
 
-.category-cards-wall {
-  display: inline-block;
-  padding: 0;
-  width: 755px;
-  margin-top: 0;
-  text-align: center; }
+.category-container {
+  padding-top: 50px;
+  font-family: ming-font, slabo;
+  letter-spacing: 4px; }
+  .category-container .category-title {
+    color: #B11533; }
 
-.category-cards-wall hr {
-  background-color: #d4d4d4;
+.separator {
   border: 0;
-  height: 1px;
-  background-color: #d4d4d4;
-  color: #d4d4d4; }
+  height: 2px;
+  background-image: -webkit-linear-gradient(left, #778899, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #778899, #8c8b8b, #f0f0f0); }
 
-.category-cards-wall h1 {
-  text-align: left;
-  margin: 0;
-  display: inline-block;
-  letter-spacing: 2px;
-  line-height: 1.4em;
-  padding: 6px;
-  border-bottom: 3px solid #b11533;
-  border-radius: 1px;
-  padding-bottom: 4px; }
+.separator-active {
+  border: 0;
+  height: 2px;
+  background-image: -webkit-linear-gradient(left, #B11533, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #B11533, #8c8b8b, #f0f0f0); }

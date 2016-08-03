@@ -1,3 +1,8 @@
 .display-none {
     display: none;
 }
+
+.content-container {
+    width: $main-content-width;
+    margin: 0 auto;
+}

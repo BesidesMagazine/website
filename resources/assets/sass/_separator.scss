@@ -1,0 +1,17 @@
+.separator {
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, $theme-gray, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, $theme-gray, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, $theme-gray, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, $theme-gray, #8c8b8b, #f0f0f0);
+}
+
+.separator-active {
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, $theme-red, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, $theme-red, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, $theme-red, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, $theme-red, #8c8b8b, #f0f0f0);
+}

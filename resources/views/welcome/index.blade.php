@@ -20,5 +20,6 @@
 @endsection
 
 @section('scripts')
-    <script src="js/slide.js"></script>
+    <script src="/js/slide.js"></script>
+    <script src="/js/effect.js"></script>
 @endsection

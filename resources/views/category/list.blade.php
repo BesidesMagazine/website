@@ -6,17 +6,16 @@
 @endsection
 
 @section('content')
-    <div style="text-align: center;">
-        @include('partials._hot')
-        <dir class="category-cards-wall">
-            <h1>{{ $category }}</h1>
-            <br>
-            <br>
+    <div class="content-container">
+        <div class="category-container">
+            <span class="category-title">{{ $category }}</span>
+            <hr class="separator-active">
     		@foreach ($articles as $article)
     			@include('partials._card')
     	    @endforeach
-    	</dir>
+        </div>
 
     </div>
+
 
 @endsection

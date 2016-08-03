@@ -1,27 +1,9 @@
-.category-cards-wall {
-    display: inline-block;
-    padding: 0;
-    width: 755px;
-    margin-top: 0;
-    text-align: center;
-}
+.category-container {
+    padding-top: 50px;
+    font-family: $main-font-family;
+    letter-spacing: 4px;
 
-.category-cards-wall hr {
-    background-color: #d4d4d4;
-    border: 0;
-    height: 1px;
-    background-color: #d4d4d4;
-    color: #d4d4d4;
-}
-
-.category-cards-wall h1 {
-    text-align: left;
-    margin: 0;
-    display: inline-block;
-    letter-spacing: 2px;
-    line-height: 1.4em;
-    padding: 6px;
-    border-bottom: 3px solid #b11533;
-    border-radius: 1px;
-    padding-bottom: 4px;
+    .category-title {
+        color: $theme-red;
+    }
 }
