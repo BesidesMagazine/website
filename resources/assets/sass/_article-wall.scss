@@ -1,4 +1,28 @@
 .article-wall {
-    width: $main-content-width;
+    max-width: $main-content-width;
     margin: 0 auto;
+    font-family: $main-font-family;
+    letter-spacing: 4px;
+}
+
+.article-partial-wall {
+    padding: 20px 1px;
+}
+
+.category-title {
+    font-size: $font-big-size;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        text-decoration: none;
+        color: $theme-red;
+    }
+}
+
+.more {
+    font-size: $font-small-size;
+    padding-left: 25px;
+    letter-spacing: 3.5px;
 }

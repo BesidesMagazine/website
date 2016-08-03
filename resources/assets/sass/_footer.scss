@@ -1,0 +1,33 @@
+.separator {
+    max-width: 1106px;
+    width: 80%;
+    border: 0;
+    height: 1px;
+    background-color: #d4d4d4;
+    color: #d4d4d4;
+}
+/*  footer */
+.footer {
+    max-width: 1006px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer span {
+    font-size: 12px;
+    line-height: 54px;
+    margin-right: 30px;
+    color: black;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    color: #B11533;
+    border-bottom: 2px solid #000;
+    padding-bottom: 4px;
+}

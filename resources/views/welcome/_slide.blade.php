@@ -1,6 +1,6 @@
 
     @foreach($hotArticles as $article)
-        <div class="slide-container" style="display:none;background-image: url({{$article->preview_image}})">
+        <div class="slide-container" onclick="location.href='{{ route('article.show',['title' => $article->title])}}' " style="display:none;background-image: url({{$article->preview_image}})">
                 <div class="slide-cover">
                 </div>
                 <div class="slide-show" style="background-image: url({{$article->preview_image}});">
@@ -17,5 +17,5 @@
 
 <div class="slide-controller">
 
-    
+
 </div>

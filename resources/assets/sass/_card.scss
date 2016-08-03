@@ -1,0 +1,69 @@
+.card {
+    padding: 15px;
+    width: 300px;
+    height: 344px;
+    text-align: left;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+
+    &:hover {
+        .card-cover {
+            display: none;
+        }
+    }
+}
+
+.card-category-name {
+    font-size: 12px;
+    line-height: 12px;
+    color: #B11533;
+    margin-left: 13px;
+    margin-bottom: 0;
+}
+
+.card-cover {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.6) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.05) 0%,rgba(0,0,0,0.6) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.05) 0%,rgba(0,0,0,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=  '#0d000000', endColorstr='#99000000',GradientType=0 );
+}
+
+.card-picture-container {
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-title {
+    padding-top: 15px;
+    font-size: $font-normal-size;
+    line-height: 20px;
+    color: black;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.card-content {
+    font-size: $font-normal-size;
+    line-height: 19px;
+    opacity: 0.7;
+    letter-spacing: 1px;
+}
+
+.card-time {
+    position: absolute;
+    margin: 0;
+    width: 100px;
+    font-size: 13px;
+    padding-top: 175px;
+    padding-left: 220px;
+    letter-spacing: 1px;
+    text-shadow: 2px 1px 2px black;
+    color: white;
+}

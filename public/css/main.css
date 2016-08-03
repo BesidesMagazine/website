@@ -1,3 +1,5 @@
+/*layout*/
+/*font*/
 .display-none {
   display: none; }
 
@@ -8,6 +10,10 @@
 @font-face {
   font-family: dinpro-m;
   src: url("/font/DINPro-Medium.ttf"); }
+
+@font-face {
+  font-family: slabo;
+  src: url("/font/slabo.ttf"); }
 
 @font-face {
   font-family: ming-font;
@@ -92,12 +98,14 @@
       float: left; } }
 
 .slide-container {
+  font-family: ming-font, slabo;
   min-width: 1024px;
   width: 100%;
   height: 500px;
   background-position: center;
   background-size: cover;
-  opacity: 0.9; }
+  opacity: 0.9;
+  cursor: pointer; }
 
 .slide-cover {
   width: 100%;
@@ -125,6 +133,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=  '#0d000000', endColorstr='#99000000',GradientType=0 ); }
   .slide-content .preview,
   .slide-content .title {
+    letter-spacing: 4px;
     margin: 8px;
     color: white;
     text-shadow: 2px 1px 2px black;
@@ -143,7 +152,7 @@
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  background-color: gray;
+  background-color: #d3d3d3;
   cursor: pointer; }
   .slide-button:hover {
     background-color: #B11533; }
@@ -151,10 +160,86 @@
     background-color: #B11533; }
 
 .article-wall {
-  width: 1000px;
-  margin: 0 auto; }
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: ming-font, slabo;
+  letter-spacing: 4px; }
 
-/* separator  */
+.article-partial-wall {
+  padding: 20px 1px; }
+
+.category-title {
+  font-size: 34px;
+  padding-left: 20px;
+  text-decoration: none;
+  color: black; }
+  .category-title:hover {
+    text-decoration: none;
+    color: #B11533; }
+
+.more {
+  font-size: 15px;
+  padding-left: 25px;
+  letter-spacing: 3.5px; }
+
+.card {
+  padding: 15px;
+  width: 300px;
+  height: 344px;
+  text-align: left;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: top; }
+  .card:hover .card-cover {
+    display: none; }
+
+.card-category-name {
+  font-size: 12px;
+  line-height: 12px;
+  color: #B11533;
+  margin-left: 13px;
+  margin-bottom: 0; }
+
+.card-cover {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.6) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=  '#0d000000', endColorstr='#99000000',GradientType=0 ); }
+
+.card-picture-container {
+  height: 200px;
+  text-align: center;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover; }
+
+.card-title {
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+  margin: 0;
+  letter-spacing: 1px; }
+
+.card-content {
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.7;
+  letter-spacing: 1px; }
+
+.card-time {
+  position: absolute;
+  margin: 0;
+  width: 100px;
+  font-size: 13px;
+  padding-top: 175px;
+  padding-left: 220px;
+  letter-spacing: 1px;
+  text-shadow: 2px 1px 2px black;
+  color: white; }
+
 .separator {
   max-width: 1106px;
   width: 80%;
@@ -185,17 +270,8 @@
   border-bottom: 2px solid #000;
   padding-bottom: 4px; }
 
+/* separator  */
 /*  main  */
-.main-content {
-  max-width: 1006px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 13px;
-  text-align: center;
-  font-family: 'ming-font',serif;
-  letter-spacing: 0.07em;
-  min-height: 800px; }
-
 .forum-ad {
   position: fixed;
   top: 100px;
