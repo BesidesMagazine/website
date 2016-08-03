@@ -15,24 +15,31 @@
 @endsection
 
 @section('content')
+    <div class="content-container" style="width:900px;padding-top:50px;">
+        <div class="article">
+            <span class="article-title">
+    			{{$article->title}}
+    		</span>
+            <br>
+    		<div class="article-fb">
+    			<div style="" class="fb-like" data-href="{{ env('APP_URL') .'/'. $article->category_name . '/' . $article->title}}" data-width="300px" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+    		</div>
+    		<div class="article-info">
+    			作者： <a href="{{route('author.show',[ 'author' => $article->author_name])}}" style="color: #666666;">{{$article->author_name }}</a>_ {{$article->created_at}}
+    		</div>
+    		<hr class="separator">
+            <div class="article-content">
+                {!! $article->content !!}
 
-	@include('partials._hot')
-	<dir class="article-content">
+            </div>
+            <hr class="separator">
+            <dir class="fb-comments">
+                <div class="fb-comments" data-href="{{ env('APP_URL') .'/'. $article->category_name . '/' . $article->title}}" data-width="900" data-numposts="5"></div>
+            </dir>
 
-		<h1 class="article-title">
-			{{$article->title}}
-		</h1>
-		<div class="article-fb">
-			<div style="" class="fb-like" data-href="{{ env('APP_URL') .'/'. $article->category_name . '/' . $article->title}}" data-width="300px" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
-		</div>
-		<div class="article-info">
-			作者: <a href="{{route('author.show',[ 'author' => $article->author_name])}}" style="color: #666666;">{{$article->author_name }}</a>_ {{$article->created_at}}
-		</div>
-		<hr>
-		{!! $article->content !!}
 
-		<dir class="fb-comments">
-			<div class="fb-comments" data-href="{{ env('APP_URL') .'/'. $article->category_name . '/' . $article->title}}" data-width="750" data-numposts="5"></div>
-		</dir>
-	</dir>
+
+        </div>
+
+    </div>
 @endsection
