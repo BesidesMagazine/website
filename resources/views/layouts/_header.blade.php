@@ -1,7 +1,7 @@
 <header class="header">
     <nav class="nav">
         <a style="text-decoration:none;" href="{{env('APP_URL')}}">
-            <img class = "logo-pic" src="/img/logo.png" />
+            <img class = "logo-pic" src="/img/translogo.png" />
         </a>
         <div class = "category-bar">
             @foreach ($categories as $category)

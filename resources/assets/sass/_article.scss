@@ -1,0 +1,41 @@
+.article {
+    font-family: $main-font-family;
+}
+
+.article-title {
+    font-size: $font-big-size;
+    text-shadow: 2px 2px 1px $theme-gray;
+    letter-spacing: 5px;
+}
+
+.article-fb {
+    padding-top: 15px;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.article-info {
+    color: $theme-gray;
+    padding-top: 15px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 300px;
+}
+
+.article-content {
+    width: 750px;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+.article-content p {
+    word-wrap: break-word;
+    letter-spacing: 2px;
+    line-height: 1.4em;
+}
+
+.fb-comments {
+    margin-top: 20px;
+    padding: 0;
+}
