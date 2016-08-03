@@ -1,10 +1,17 @@
-<hr class="separator" />
+
 <div class="footer">
-    <span><a href="{{ route('author.index')}}">作者列表</a></span>
-    <span><a href="{{ route('connect.index')}}">聯絡我們</a></span>
-    <span><a href="{{ route('partner.index')}}">合作夥伴</a></span>
-    <div style="height: 100px;text-align: right;margin-right:0;">
-        <div class="fb-page" data-href="https://www.facebook.com/besidesmagazine" data-tabs="timeline" data-height="70" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/besidesmagazine"><a href="https://www.facebook.com/besidesmagazine">《除了》雜誌</a></blockquote></div>
-        </div>
+    <hr style="border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #8c8b8b, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #8c8b8b, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #8c8b8b, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #8c8b8b, #8c8b8b, #f0f0f0); ">
+    <div >
+        <a class="footer-element" href="{{ route('author.index')}}">作者列表</a>
+        <a class="footer-element" href="{{ route('connect.index')}}">聯絡我們</a>
+        <a class="footer-element" href="{{ route('partner.index')}}">合作夥伴</a>
     </div>
+    <a style="text-decoration:none;padding:0;float:right;" href="http://besidesmg.dev">
+            <img class="logo-pic" src="/img/translogo.png">
+    </a>
 </div>

@@ -152,7 +152,7 @@
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  background-color: #d3d3d3;
+  background-color: #778899;
   cursor: pointer; }
   .slide-button:hover {
     background-color: #B11533; }
@@ -169,6 +169,7 @@
   padding: 20px 1px; }
 
 .category-title {
+  text-shadow: 2px 2px 1px #778899;
   font-size: 34px;
   padding-left: 20px;
   text-decoration: none;
@@ -192,6 +193,10 @@
   vertical-align: top; }
   .card:hover .card-cover {
     display: none; }
+  .card:hover .card-title {
+    text-shadow: 1px 1px 3px #778899; }
+  .card:hover .card-content {
+    text-shadow: 1px 1px 3px #778899; }
 
 .card-category-name {
   font-size: 12px;
@@ -213,7 +218,8 @@
   text-align: center;
   overflow: hidden;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  box-shadow: 3px 3px 4px #778899; }
 
 .card-title {
   padding-top: 15px;
@@ -237,54 +243,46 @@
   padding-top: 175px;
   padding-left: 220px;
   letter-spacing: 1px;
-  text-shadow: 2px 1px 2px black;
+  text-shadow: 2px 1px 2px #778899;
   color: white; }
 
-.separator {
-  max-width: 1106px;
-  width: 80%;
+/*  footer */
+.footer {
+  width: 1024px;
+  margin: 0 auto;
+  font-family: ming-font, slabo;
+  font-size: 20px;
+  height: 150px; }
+  .footer .footer-element {
+    text-shadow: 2px 2px 2px #778899;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 20px; }
+    .footer .footer-element:hover {
+      color: #B11533; }
+
+.category-cards-wall {
+  display: inline-block;
+  padding: 0;
+  width: 755px;
+  margin-top: 0;
+  text-align: center; }
+
+.category-cards-wall hr {
+  background-color: #d4d4d4;
   border: 0;
   height: 1px;
   background-color: #d4d4d4;
   color: #d4d4d4; }
 
-/*  footer */
-.footer {
-  max-width: 1006px;
-  width: 100%;
-  text-align: center;
-  margin: 0 auto; }
-
-.footer span {
-  font-size: 12px;
-  line-height: 54px;
-  margin-right: 30px;
-  color: black; }
-
-.footer a {
-  text-decoration: none;
-  color: black; }
-
-.footer a:hover {
-  color: #B11533;
-  border-bottom: 2px solid #000;
+.category-cards-wall h1 {
+  text-align: left;
+  margin: 0;
+  display: inline-block;
+  letter-spacing: 2px;
+  line-height: 1.4em;
+  padding: 6px;
+  border-bottom: 3px solid #b11533;
+  border-radius: 1px;
   padding-bottom: 4px; }
-
-/* separator  */
-/*  main  */
-.forum-ad {
-  position: fixed;
-  top: 100px;
-  right: 0;
-  width: 90px;
-  height: 200px;
-  background-color: white; }
-
-.hot-container {
-  margin-top: 16px;
-  width: 240px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 96px;
-  background-color: #ddd;
-  float: left; }

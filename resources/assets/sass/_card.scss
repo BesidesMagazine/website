@@ -11,6 +11,14 @@
         .card-cover {
             display: none;
         }
+
+        .card-title {
+            text-shadow: 1px 1px 3px $theme-gray;
+        }
+
+        .card-content {
+            text-shadow: 1px 1px 3px $theme-gray;
+        }
     }
 }
 
@@ -38,6 +46,7 @@
     overflow: hidden;
     background-position: center;
     background-size: cover;
+    box-shadow: 3px 3px 4px $theme-gray;
 }
 
 .card-title {
@@ -64,6 +73,6 @@
     padding-top: 175px;
     padding-left: 220px;
     letter-spacing: 1px;
-    text-shadow: 2px 1px 2px black;
+    text-shadow: 2px 1px 2px $theme-gray;
     color: white;
 }

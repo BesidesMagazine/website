@@ -5,24 +5,5 @@
 @import "_slide";
 @import "_article-wall";
 @import "_card";
-@import "footer";
-/* separator  */
-/*  main  */
-.forum-ad {
-    position: fixed;
-    top: 100px;
-    right: 0;
-    width: 90px;
-    height: 200px;
-    background-color: white;
-}
-
-.hot-container {
-    margin-top: 16px;
-    width: 240px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 96px;
-    background-color: #ddd;
-    float: left;
-}
+@import "_footer";
+@import "_category-wall"
