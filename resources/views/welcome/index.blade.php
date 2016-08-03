@@ -10,8 +10,7 @@
 
 @section('content')
     @include('welcome._slide')
-    <i class="fa fa-cloud"></i>
-    <div class="all-cards-wall">
+    <div class="article-wall">
         @include('welcome._new_articles')
         @foreach($categories as $category)
             @include('welcome._all_cards_wall')

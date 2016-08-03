@@ -1,64 +1,71 @@
-.slideshow-container {
+.slide-container {
+    min-width: 1024px;
     width: 100%;
-    height: 600px;
-    background: black url("http://cs.ucsb.edu/~zhelfinstein/simpsons/image.jpg");
+    height: 500px;
     background-position: center;
     background-size: cover;
-    opacity: 0.4;
+    opacity: 0.9;
 }
 
-.slideshow-and-side-bar-container {
-    display: block;
-    text-align: center;
-}
-/* bar */
-.side-bar {
-    display: inline-block;
-    width: 260px;
-    height: 480px;
-}
-
-.side-bar-news-container {
-    width: 282px;
-    height: 96px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.side-bar table {
-    border-collapse: collapse;
+.slide-cover {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(256, 256, 256, 0.8);
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.85;
 }
 
-.side-bar td {
-    border: 1px solid #B11533;
-    font-family: 'ming-font',serif;
-    font-size: 18px;
-    height: 96px;
-    text-align: center;
-    color: black;
-    letter-spacing: 2px;
-    word-break: break-all;
+.slide-show {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide-content {
+    padding-top: 350px;
+    padding-left: 50px;
+    padding-right: 100px;
+    width: 850px;
+    height: 150px;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.6) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.05) 0%,rgba(0,0,0,0.6) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.05) 0%,rgba(0,0,0,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=  '#0d000000', endColorstr='#99000000',GradientType=0 );
+
+    .preview,
+    .title {
+        margin: 8px;
+        color: white;
+        text-shadow: 2px 1px 2px black;
+        line-height: 130%;
+    }
+}
+
+.slide-controller {
+    padding: 20px 15px;
+    width: 150px;
+    height: 70px;
+    margin: auto;
+}
+
+.slide-button {
+    padding: 1px;
+    margin: 5px 4px;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: gray;
     cursor: pointer;
-}
 
-.side-bar a {
-    text-decoration: none;
-}
+    &:hover {
+        background-color: $theme-red;
+    }
 
-.side-bar a {
-    text-decoration: none;
-    color: black;
-    line-height: 150%;
-}
-
-.side-bar td:hover a {
-    color: #B11533;
-    border-bottom: 2px solid #000;
-    padding-bottom: 4px;
+    &:active {
+        background-color: $theme-red;
+    }
 }
