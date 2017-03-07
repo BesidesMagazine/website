@@ -4,6 +4,9 @@
             <img class = "logo-pic" src="/img/translogo.png" />
         </a>
         <div class = "category-bar">
+          <div class="category-item">
+              <a href = "{{ url('/announcement') }} ">活動公告</a>
+          </div>
             @foreach ($categories as $category)
                 <div class="category-item">
                     <a href = "{{ route('category.show', ['category' => $category->name])}} ">{{$category->name}}</a>
