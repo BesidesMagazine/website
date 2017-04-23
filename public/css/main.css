@@ -108,8 +108,8 @@
   display: inline-block;
   vertical-align: top;
   margin-left: 30px;
-  width: 400px;
   height: 70px;
+  float: right;
 }
 
 .social-media-bar i {
