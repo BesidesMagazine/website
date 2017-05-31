@@ -400,8 +400,8 @@
 
 .article-title {
   font-size: 34px;
-  text-shadow: 2px 2px 1px #778899;
   letter-spacing: 5px;
+  font-weight: 700;
 }
 
 .article-fb {
@@ -420,7 +420,7 @@
 }
 
 .article-content {
-  width: 750px;
+  width: 800px;
   margin: 0 auto;
   min-height: 400px;
 }
@@ -428,7 +428,8 @@
 .article-content p {
   word-wrap: break-word;
   letter-spacing: 2px;
-  line-height: 1.4em;
+  line-height: 1.6em;
+  font-size: 17px;
 }
 
 .fb-comments {
@@ -437,7 +438,7 @@
 }
 
 .card {
-  font-size: 16px;
+  font-size: 17px;
   font-family: Microsoft JhengHei, ming-font, slabo;
   display: inline-block;
 }
@@ -474,7 +475,7 @@
 .author-intro {
   max-height: 220px;
   overflow: hidden;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 2px;
 }
 
