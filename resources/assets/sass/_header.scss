@@ -39,12 +39,12 @@
     font-family: 'notosansbold-font',sans-serif;
     display: inline-block;
     padding: 24px;
-    max-width: 500px;
+    max-width: inherit;
     vertical-align: top;
 }
 
 .category-item {
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 3px;
     display: inline-block;
     margin-right: 20px;
@@ -68,8 +68,9 @@
     display: inline-block;
     vertical-align: top;
     margin-left: 30px;
-    width: 400px;
+    // width: 400px;
     height: 70px;
+    float: right;
 
     i {
         font-size: 36px;
