@@ -1,11 +1,12 @@
 .card {
-    padding: 15px;
+    margin: 15px;
     width: 300px;
-    height: 344px;
+    // height: 344px;
     text-align: left;
     display: inline-block;
     cursor: pointer;
     vertical-align: top;
+    background-color: $card-background;
 
     &:hover {
         .card-cover {
@@ -13,11 +14,11 @@
         }
 
         .card-title {
-            text-shadow: 1px 1px 3px $theme-gray;
+            // text-shadow: 1px 1px 3px $theme-gray;
         }
 
         .card-content {
-            text-shadow: 1px 1px 3px $theme-gray;
+            // text-shadow: 1px 1px 3px $theme-gray;
         }
     }
 }
@@ -46,12 +47,13 @@
     overflow: hidden;
     background-position: center;
     background-size: cover;
-    box-shadow: 3px 3px 4px $theme-gray;
+    // box-shadow: 3px 3px 4px $theme-gray;
 }
 
 .card-title {
-    padding-top: 15px;
-    font-size: $font-normal-size;
+    padding-top: 30px;
+    padding-left: 25px;
+    font-size: 28px;
     line-height: 20px;
     color: black;
     margin: 0;
@@ -59,9 +61,13 @@
 }
 
 .card-content {
-    font-size: $font-normal-size;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 30px;
+    font-size: 18px;
     line-height: 19px;
-    opacity: 0.7;
+    // opacity: 0.7;
     letter-spacing: 1px;
 }
 

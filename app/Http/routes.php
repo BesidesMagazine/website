@@ -44,4 +44,6 @@ Route::resource('partner', 'User\PartnerController', ['only' => ['index']]);
 
 Route::resource('category', 'User\CategoryController', ['only' => ['show']]);
 
+Route::resource('article', 'User\ArticleController', ['only' => ['show']]); 
+
 Route::resource('announcement', 'User\announcementController', ['only' => ['index']]);
