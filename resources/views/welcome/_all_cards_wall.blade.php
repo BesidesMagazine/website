@@ -5,8 +5,9 @@
         </span>
     </a>
     <hr class="separator">
-    @foreach($articles->where('category_name', $category->name)->take(3) as $article)
-        @include('partials._card')
-    @endforeach
-
+    <ul class="cards">
+        @foreach($articles->where('category_name', $category->name)->take(3) as $article)
+            @include('partials._card')
+        @endforeach
+    </ul>
 </div>

@@ -1,4 +1,4 @@
-<div class="card">
+<div class="base-card">
     <div class="card-author">
 
         <div class="front" style="background-image: url('{{$author->image_url}}');">
@@ -15,5 +15,8 @@
     <a class="author-link" href="{{ route('author.show',['id' => $author->name]) }}">
         {{$author->name}}
     </a>
+    <span class="eng-name">
+        
+    </apsn>
 
 </div>

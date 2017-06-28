@@ -9,9 +9,12 @@
         </span>
 
         <div class = "category-bar">
-          <div class="category-item">
+            <div class="category-item">
+                <a href = "{{ url('/#') }} ">關於除了</a>
+            </div>
+            {{-- <div class="category-item">
               <a href = "{{ url('/announcement') }} ">活動公告</a>
-          </div>
+            </div> --}}
           <div class="dropdown category-item">
               <a class="dropbtn" href="#">文章</a>
               <i class="fa fa-sort-desc arrow-down" aria-hidden="true"></i>

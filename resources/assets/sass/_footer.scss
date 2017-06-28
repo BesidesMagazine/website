@@ -1,20 +1,11 @@
 /*  footer */
 .footer {
-    width: $main-content-width;
-    margin: 0 auto;
-    font-family: $main-font-family;
-    font-size: $font-medium-size;
-    height: 150px;
+    // margin: 0 auto;
+    // width: $main-content-width;
 
-    .footer-element {
-        text-shadow: 2px 2px 2px $theme-gray;
-        display: inline-block;
-        text-decoration: none;
-        color: black;
-        padding: 20px;
-
-        &:hover {
-            color: $theme-red;
-        }
+    img {
+        width: $main-content-width;
+        margin: 0 auto;
+        display: block;
     }
 }

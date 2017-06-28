@@ -33,7 +33,8 @@ $(function(){
     }
 
     function setAutoSwitch(){
-        autoSwitch = setInterval(AutoSwitch,5000);
+        if(number > 1)
+            autoSwitch = setInterval(AutoSwitch,5000);
     }
 
     function AutoSwitch(){
