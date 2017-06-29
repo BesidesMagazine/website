@@ -23,9 +23,9 @@ class Article extends Model
     	return $this->belongsTo('app\Models\Category');
     }
     */
-    /*
+
     public function author(){
-        return $this->belongsTo('app\Models\Author');
+        return $this->belongsTo('App\Models\Author', 'author_name', 'name');
     }
-    */
+
 }

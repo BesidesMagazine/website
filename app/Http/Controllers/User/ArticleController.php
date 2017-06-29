@@ -19,6 +19,20 @@ class ArticleController extends Controller
         $categories = Category::orderBy('created_at')->get();
         $hotArticles = Article::orderBy('click', 'desc')->where('created_at', '>', $today->subWeek())->take(5)->get();
 
-        return view('article.show', ['categories' => $categories, 'article' => $article, 'hotArticles' => $hotArticles]);
+        $years = Article::select('created_at')
+                    ->get()
+                    ->groupBy(
+                        function($item){
+                            return $item->created_at->year;
+                        })
+                    ->keys();
+
+        return view('article.show', ['years' => $years, 'categories' => $categories, 'article' => $article, 'hotArticles' => $hotArticles]);
+    }
+
+    public function year($year = '2017') {
+        $article_of_year = Article::whereYear('created_at', '=', $year)->get();
+        // return view('article.year', ['aricles' => $article_of_year]);
+        return($article_of_year);
     }
 }

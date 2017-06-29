@@ -10,9 +10,9 @@ class Author extends Model
         'name', 'introduction', 'image_url',
     ];
 
-    /*
+
     public function articles(){
-    	return $this->hasMany('app\Models\Article');
+    	return $this->hasMany('App\Models\Article', 'author_name', 'name');
     }
-    */
+
 }
