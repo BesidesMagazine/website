@@ -1,11 +1,12 @@
 .card {
-    padding: 15px;
+    margin: 15px;
     width: 300px;
-    height: 344px;
+    // height: 344px;
     text-align: left;
     display: inline-block;
     cursor: pointer;
     vertical-align: top;
+    background-color: $card-background;
 
     &:hover {
         .card-cover {
@@ -13,11 +14,11 @@
         }
 
         .card-title {
-            text-shadow: 1px 1px 3px $theme-gray;
+            // text-shadow: 1px 1px 3px $theme-gray;
         }
 
         .card-content {
-            text-shadow: 1px 1px 3px $theme-gray;
+            // text-shadow: 1px 1px 3px $theme-gray;
         }
     }
 }
@@ -46,12 +47,13 @@
     overflow: hidden;
     background-position: center;
     background-size: cover;
-    box-shadow: 3px 3px 4px $theme-gray;
+    // box-shadow: 3px 3px 4px $theme-gray;
 }
 
 .card-title {
-    padding-top: 15px;
-    font-size: $font-normal-size;
+    padding-top: 30px;
+    padding-left: 25px;
+    font-size: 28px;
     line-height: 20px;
     color: black;
     margin: 0;
@@ -59,20 +61,133 @@
 }
 
 .card-content {
-    font-size: $font-normal-size;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 30px;
+    font-size: 18px;
     line-height: 19px;
-    opacity: 0.7;
+    // opacity: 0.7;
     letter-spacing: 1px;
 }
 
 .card-time {
-    position: absolute;
+    // position: absolute;
     margin: 0;
     width: 100px;
     font-size: 13px;
-    padding-top: 175px;
-    padding-left: 220px;
+    padding-top: 10px;
     letter-spacing: 1px;
-    text-shadow: 2px 1px 2px $theme-gray;
-    color: white;
+    // text-shadow: 2px 1px 2px $theme-gray;
+    color: #rgba(000000);
+    z-index: 10;
+}
+//.
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cards__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+@media (min-width: 60rem) {
+  .cards__item {
+    width: 100%;
+  }
+}
+@media (min-width: 56rem) {
+  .cards__item {
+    width: 33.3333%;
+  }
+}
+.card {
+  border-radius: 0.25rem;
+  /*box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  height:65%;
+  max-height: 450px;
+}
+.card:hover .card__image {
+  -webkit-filter: contrast(100%);
+          filter: contrast(100%);
+}
+.card__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem 1.6rem;
+
+  .author{
+      margin: 8px 0;
+  }
+}
+.card__image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  -webkit-filter: contrast(70%);
+          filter: contrast(70%);
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: -webkit-filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  transition: -webkit-filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91), -webkit-filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+}
+.card__image::before {
+  content: "";
+  display: block;
+  padding-top: 55%;
+}
+@media (min-width: 80rem) {
+  .card__image::before {
+    padding-top: 60%;
+  }
+}
+
+.card__title {
+  color: #303030;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  h3{
+      font-weight: bold;
+      margin-top: 0;
+  }
+}
+.card__text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+
 }

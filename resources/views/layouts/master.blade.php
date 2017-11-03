@@ -7,7 +7,7 @@
 		@include('layouts._style')
 		@include('layouts._scripts_top')
 	</head>
-	<body style="background-color: #F6F6F6; margin-top:0px; margin-left:0; margin-right:0;">
+	<body style="background-image: url('/img/f1.jpg'); margin-top:0px; margin-left:0; margin-right:0;">
 		@include('layouts._header')
 		@yield('content')
 		@include('layouts._footer')

@@ -9,14 +9,17 @@
 @endsection
 
 @section('content')
-    @include('welcome._slide')
+    {{-- @include('welcome._slide') --}}
+    @include('welcome._announcement_slide')
     <div class="article-wall">
         @include('welcome._new_articles')
-        @foreach($categories as $category)
+        {{-- @foreach($categories as $category)
             @include('welcome._all_cards_wall')
-        @endforeach
+        @endforeach --}}
     </div>
     <br>
+
+    @include('author._author_list')
 @endsection
 
 @section('scripts')

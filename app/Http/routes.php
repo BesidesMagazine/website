@@ -44,4 +44,7 @@ Route::resource('partner', 'User\PartnerController', ['only' => ['index']]);
 
 Route::resource('category', 'User\CategoryController', ['only' => ['show']]);
 
-Route::resource('article', 'User\ArticleController', ['only' => ['show']]);
+Route::get('article/year/{year}',['as' => 'article.year', 'uses' => 'User\ArticleController@year']);
+Route::resource('article', 'User\ArticleController', ['only' => ['show', 'year']]);
+
+Route::resource('announcement', 'User\announcementController', ['only' => ['index']]);
