@@ -11,7 +11,7 @@
             </ol>
         </div>
         <div class="col-md-2">
-            <a style="font-size:1.3em;" class="btn btn-default" href="/article/create"> 新增文章 </a>
+            <a style="font-size:1.3em;" class="btn btn-default" href="{{url('adminmg/article/create')}}"> 新增文章 </a>
         </div>
     </div>
 

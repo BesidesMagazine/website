@@ -32,7 +32,7 @@ class ArticleController extends Controller
     {
         $this->articles->store($request);
 
-        return redirect()->route('article.index');
+        return redirect()->route('adminmg.article.index');
     }
 
     public function edit(Article $article)
@@ -44,14 +44,14 @@ class ArticleController extends Controller
     {
         $this->articles->update($request, $id);
 
-        return redirect()->route('article.index');
+        return redirect()->route('adminmg.article.index');
     }
 
     public function destroy($id)
     {
         $this->articles->destory($id);
 
-        return redirect()->route('article.index');
+        return redirect()->route('adminmg.article.index');
     }
 
     public function getArticles(GetArticlesRequest $request)

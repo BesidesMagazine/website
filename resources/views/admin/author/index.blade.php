@@ -4,7 +4,7 @@
 
     <div class="row">
         <div class="col-md-offset-11 col-md-1">
-            <a class="btn btn-lg btn-default"  href="{{ route('author.create') }}">新增作者</a>
+            <a class="btn btn-lg btn-default"  href="{{ route('adminmg.author.create') }}">新增作者</a>
         </div>
     </div>
 
@@ -13,7 +13,7 @@
 
 
         @foreach ($authors as $author)
-        <a style="text-decoration:none;color:black" href="{{route('author.edit', ['id' => $author->id])}}" >
+        <a style="text-decoration:none;color:black" href="{{route('adminmg.author.edit', ['id' => $author->id])}}" >
             <div class="panel panel-default">
                 <div class="panel-body">
                     <div class="col-md-5">

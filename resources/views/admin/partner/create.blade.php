@@ -4,7 +4,7 @@
 
   <h1>新增夥伴</h1>
   <hr>
-   <form action="{{route('partner.store')}}" method="post">
+   <form action="{{route('adminmg.partner.store')}}" method="post">
 
     <h2>名字</h2>
     <input type="text" class="form-control" name="name" >

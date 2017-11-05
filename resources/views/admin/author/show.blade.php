@@ -20,8 +20,8 @@
             <td>內容：{!! $article->content  !!}</td>
             <td></td>
             <td>
-              <form action="{{ route('article.destroy', ['id' => $article->id]) }}" method="post">
-                <a href="{{route('article.edit', ['id' => $article->id])}}" class="btn btn-default" >編輯</a>
+              <form action="{{ route('adminmg.article.destroy', ['id' => $article->id]) }}" method="post">
+                <a href="{{route('adminmg.article.edit', ['id' => $article->id])}}" class="btn btn-default" >編輯</a>
                 <input type="submit" value="刪除" class="btn btn-danger" >
                 <input type="hidden" name="_method" value="delete" />
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">

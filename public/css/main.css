@@ -508,7 +508,7 @@
   overflow: hidden;
   background-position: center;
   background-size: cover;
-  background-image: url("https://www.w3schools.com/css/paris.jpg");
+  background-image: url("/img/default-bg.png");
 }
 
 .article {
@@ -685,7 +685,6 @@
 .author-title {
   font-size: 34px;
   font-family: Microsoft JhengHei, ming-font, slabo;
-  text-shadow: 3px 3px 3px #778899;
   display: block;
   padding-top: 50px;
 }

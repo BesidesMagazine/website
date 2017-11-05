@@ -22,13 +22,13 @@ class CategoryController extends Controller
             'categoryname' => 'required|unique:categories,name',
         ]);
         if ($validator->fails()) {
-            return  redirect()->route('category.index')->withErrors($validator);
+            return  redirect()->route('adminmg.category.index')->withErrors($validator);
         } else {
             $category = new Category();
             $category->name = $request['categoryname'];
             $category->save();
 
-            return redirect()->route('category.index');
+            return redirect()->route('adminmg.category.index');
         }
     }
 
@@ -49,7 +49,7 @@ class CategoryController extends Controller
             $category->name = $request['categoryname'];
             $category->save();
 
-            return redirect()->route('category.index');
+            return redirect()->route('adminmg.category.index');
         }
     }
 
@@ -57,13 +57,13 @@ class CategoryController extends Controller
     {
         Category::where('id', $id)->delete();
 
-        return redirect()->route('category.index');
+        return redirect()->route('adminmg.category.index');
     }
 
     public function listArticles($category)
     {
         if (Category::where('name', $category)->get()->isEmpty()) {
-            return redirect()->route('category.index');
+            return redirect()->route('adminmg.category.index');
         }
 
         $today = Carbon::today();

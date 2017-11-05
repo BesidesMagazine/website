@@ -4,7 +4,7 @@
 
   <h1>新增作者</h1>
   <hr>
-  <form  action="{{route('author.store')}}" method="post" >
+  <form  action="{{route('adminmg.author.store')}}" method="post" >
     </select>
     <h2>作者姓名</h2>
     <input type="text" class="form-control" name="name" >

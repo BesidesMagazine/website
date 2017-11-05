@@ -36,7 +36,7 @@ class AuthorController extends Controller
             $author->image_url = $request['image_url'];
             $author->save();
 
-            return redirect()->route('author.index');
+            return redirect()->route('adminmg.author.index');
         }
     }
 
@@ -66,7 +66,7 @@ class AuthorController extends Controller
             $author->image_url = $request['image_url'];
             $author->save();
 
-            return redirect()->route('author.index');
+            return redirect()->route('adminmg.author.index');
         }
     }
 
@@ -74,6 +74,6 @@ class AuthorController extends Controller
     {
         Author::where('id', $id)->delete();
 
-        return redirect()->route('author.index');
+        return redirect()->route('adminmg.author.index');
     }
 }
