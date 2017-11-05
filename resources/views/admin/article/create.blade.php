@@ -4,7 +4,7 @@
   <script src="/ckeditor/ckeditor.js"></script>
   <h1>新增文章</h1>
   <hr>
-  <form id="form"  action="{{route('article.store')}}" method="post" >
+  <form id="form"  action="{{route('adminmg.article.store')}}" method="post" >
     <h2>分類</h2>
     <select class="form-control" name="category">
       @each('admin.article._select_category', $categories, 'category')

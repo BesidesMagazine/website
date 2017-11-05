@@ -18,7 +18,7 @@
             <h4 class="modal-title">你確定要刪除嗎？</h4>
           </div>
           <div class="modal-footer">
-              <form action="{{ route('partner.destroy', ['id' => $partner->id]) }}" method="post">
+              <form action="{{ route('adminmg.partner.destroy', ['id' => $partner->id]) }}" method="post">
                 <input type="submit" value="刪除" class="btn btn-danger" >
                 <input type="hidden" name="_method" value="delete" />
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -28,7 +28,7 @@
     </div>
 </div>
     <hr>
-    <form action="{{route('partner.update',['partner' => $partner->id])}}" method="post">
+    <form action="{{route('adminmg.partner.update',['partner' => $partner->id])}}" method="post">
 
         <h2>名字</h2>
         <input type="text" class="form-control" name="name" value="{{$partner->name}}" >

@@ -17,7 +17,7 @@
             <h4 class="modal-title">你確定要刪除嗎？</h4>
           </div>
           <div class="modal-footer">
-              <form action="{{ route('author.destroy', ['id' => $author->id]) }}" method="post">
+              <form action="{{ route('adminmg.author.destroy', ['id' => $author->id]) }}" method="post">
                 <input type="submit" value="刪除" class="btn btn-danger" >
                 <input type="hidden" name="_method" value="delete" />
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -29,7 +29,7 @@
 
 
   <hr>
-  <form  action="{{ route('author.update', ['id' => $author->id]) }}" method="post" >
+  <form  action="{{ route('adminmg.author.update', ['id' => $author->id]) }}" method="post" >
     <h2>作者姓名</h2>
     <input type="text" class="form-control" name="name" value="{{$author->name}}">
     <h2>作者照片</h2>

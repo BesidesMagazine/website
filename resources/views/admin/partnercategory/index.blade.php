@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="row">
-        <form action="{{route('partnercategory.store')}}" method="post">
+        <form action="{{route('adminmg.partnercategory.store')}}" method="post">
             <div class="panel panel-default">
                 <div class="panel-body"  style="font-size:1.5em;">
                     <div class="col-md-11">
@@ -28,10 +28,10 @@
                             {{ $partnercategory->name }}
                         </div>
                         <div class="col-md-1">
-                            <a href="{{route('partnercategory.edit', ['id' => $partnercategory->id])}}" class="btn btn-lg btn-default" >編輯</a>
+                            <a href="{{route('adminmg.partnercategory.edit', ['id' => $partnercategory->id])}}" class="btn btn-lg btn-default" >編輯</a>
                         </div>
                         <div class="col-md-1">
-                            <form action="{{ route('partnercategory.destroy', ['id' => $partnercategory->id]) }}" method="post">
+                            <form action="{{ route('adminmg.partnercategory.destroy', ['id' => $partnercategory->id]) }}" method="post">
                                 <input type="submit" value="刪除" class="btn btn-lg btn-danger" >
                                 <input type="hidden" name="_method" value="delete" />
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}">

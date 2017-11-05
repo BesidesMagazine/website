@@ -20,13 +20,13 @@ class PartnerCategoryController extends Controller
             'partner_category_name' => 'required|unique:partner_categories,name',
         ]);
         if ($validator->fails()) {
-            return  redirect()->route('partnercategory.index')->withErrors($validator);
+            return  redirect()->route('adminmg.partnercategory.index')->withErrors($validator);
         } else {
             $partnercategory = new PartnerCategory();
             $partnercategory->name = $request['partner_category_name'];
             $partnercategory->save();
 
-            return redirect()->route('partnercategory.index');
+            return redirect()->route('adminmg.partnercategory.index');
         }
     }
 
@@ -47,7 +47,7 @@ class PartnerCategoryController extends Controller
             $partnercategory->name = $request['partner_category_name'];
             $partnercategory->save();
 
-            return redirect()->route('partnercategory.index');
+            return redirect()->route('adminmg.partnercategory.index');
         }
     }
 
@@ -55,6 +55,6 @@ class PartnerCategoryController extends Controller
     {
         PartnerCategory::where('id', $id)->delete();
 
-        return redirect()->route('partnercategory.index');
+        return redirect()->route('adminmg.partnercategory.index');
     }
 }

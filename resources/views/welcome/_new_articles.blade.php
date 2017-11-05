@@ -8,7 +8,7 @@
             @include('partials._card')
         @endforeach
     </ul>
-    <div class="more" onclick="location.href='#'">
+    <!-- <div class="more" onclick="location.href='#'">
         <h4>MORE<i class="fa fa-arrow-right" aria-hidden="true"></i></h4>
-    </div>
+    </div> -->
 </div>

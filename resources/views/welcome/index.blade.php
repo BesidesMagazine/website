@@ -9,8 +9,9 @@
 @endsection
 
 @section('content')
+  <br><br><div class="front_img"></div>
     {{-- @include('welcome._slide') --}}
-    @include('welcome._announcement_slide')
+    <!-- @include('welcome._announcement_slide') -->
     <div class="article-wall">
         @include('welcome._new_articles')
         {{-- @foreach($categories as $category)

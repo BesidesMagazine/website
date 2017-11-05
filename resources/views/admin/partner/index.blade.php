@@ -4,7 +4,7 @@
 
     <div class="row">
         <div class="col-md-offset-11 col-md-1">
-            <a class="btn btn-lg btn-default"  href="{{ route('partner.create') }}"   >新增夥伴</a>
+            <a class="btn btn-lg btn-default"  href="{{ route('adminmg.partner.create') }}"   >新增夥伴</a>
         </div>
     </div>
 
@@ -12,7 +12,7 @@
         <div class="col-md-offset-3 col-md-6">
 
         @foreach ($partners as $partner)
-        <a style="text-decoration:none;color:black" href="{{route('partner.edit', ['id' => $partner->id])}}" >
+        <a style="text-decoration:none;color:black" href="{{route('adminmg.partner.edit', ['id' => $partner->id])}}" >
             <div class="panel panel-default">
                 <div class="panel-body">
                     <div class="col-md-5">

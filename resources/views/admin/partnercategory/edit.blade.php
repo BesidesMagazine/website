@@ -3,7 +3,7 @@
 @section('content')
 
 <dir class="row">
-    <form action="{{route('partnercategory.update',['id' => $partnercategory->id])}}" method="post">
+    <form action="{{route('adminmg.partnercategory.update',['id' => $partnercategory->id])}}" method="post">
         <div class="panel panel-default">
             <div class="panel-body"  style="font-size:1.5em;">
                 <div class="col-md-10">

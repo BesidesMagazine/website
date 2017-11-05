@@ -1,16 +1,18 @@
 <?php
 
-$domainName = explode('://', env('APP_URL'))[1];
+// $domainName = explode('://', env('APP_URL'))[1];
 
-Route::group(['domain' => 'admin.'.$domainName], function () {
+// Route::group(['domain' => 'admin.'.$domainName], function () {
+  Route::get('login', ['as' => 'login', 'uses' => 'Admin\AdminController@login']);
+  Route::post('authenticate', ['as' => 'authenticate', 'uses' => 'Admin\AdminController@authenticate']);
+
+  Route::get('logout', ['as' => 'logout', 'uses' => 'Admin\AdminController@logout']);
+  Route::group(['prefix'=>'adminmg'], function () {
 
     Route::get('/', ['as' => 'admin', 'uses' => 'Admin\AdminController@index']);
 
-    Route::get('login', ['as' => 'login', 'uses' => 'Admin\AdminController@login']);
 
-    Route::post('authenticate', ['as' => 'authenticate', 'uses' => 'Admin\AdminController@authenticate']);
 
-    Route::get('logout', ['as' => 'logout', 'uses' => 'Admin\AdminController@logout']);
 
     Route::group(['middleware' => 'auth'], function () {
 

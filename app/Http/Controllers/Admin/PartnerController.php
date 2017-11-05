@@ -41,7 +41,7 @@ class PartnerController extends Controller
             $partner->connect = $request['connect'];
             $partner->save();
 
-            return redirect()->route('partner.index');
+            return redirect()->route('adminmg.partner.index');
         }
     }
 
@@ -71,7 +71,7 @@ class PartnerController extends Controller
             $partner->connect = $request['connect'];
             $partner->save();
 
-            return redirect()->route('partner.index');
+            return redirect()->route('adminmg.partner.index');
         }
     }
 
@@ -79,6 +79,6 @@ class PartnerController extends Controller
     {
         Partner::where('id', $id)->delete();
 
-        return redirect()->route('partner.index');
+        return redirect()->route('adminmg.partner.index');
     }
 }
